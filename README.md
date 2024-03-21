@@ -12,6 +12,10 @@
 ![GitHub forks](https://img.shields.io/github/forks/lmri-met/sites-guideradpros)
 
 > GuideRadPROS project website
+>
+> [![Static Badge](https://img.shields.io/badge/Documentation-blue)](https://github.com/lmri-met/sites-guideradpros/blob/main/README.md)
+> [![Static Badge](https://img.shields.io/badge/Surce_code-blue)](https://github.com/lmri-met/sites-guideradpros)
+> [![Static Badge](https://img.shields.io/badge/Contribute-blue)](https://github.com/lmri-met/sites-guideradpros/issues)
 
 ## Table of Contents
 - [Description](#description)
