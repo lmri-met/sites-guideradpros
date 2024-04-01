@@ -1,348 +1,364 @@
 {% block title %}
-GuideRadPROS
+    GuideRadPROS
 {% endblock %}
 
 {% block active %}
-The Project
+    The Project
 {% endblock %}
 
 {% block content %}
 
-<!-- Page title -->
-<div id="main-wrapper" style="background: #aaaaaa; padding-bottom: 10px; padding-top: 50px">
-    <div class="container">
-        <h2 style="color:white;">The project</h2>
-    </div>
-</div>
-
-<!-- Need - Introduction -->
-<div id="main-wrapper">
-    <div class="container">
-        <div id="content">
-            <article>
-                <h2>Need: Why is GuideRadPROS project needed?</h2>
-                <p>Photon dosimeters are almost universally used in all radiation practices, covering personal and
-                    environmental monitoring, and emergency response, to assess the protection of people from harmful
-                    effects of ionising radiation. In the EU, the requirements for dose assessment and monitoring are
-                    set in Council Directive 2013/59/Euratom, which is implemented in national legislations. Comparable
-                    world-wide requirements are given in IAEA Safety Standard Series No. GSR Part 3: General Safety
-                    Requirements.</p>
-            </article>
+    <!-- Page title -->
+    <div id="main-wrapper" style="background: #aaaaaa; padding-bottom: 10px; padding-top: 50px">
+        <div class="container">
+            <h2 style="color:white;">The project</h2>
         </div>
     </div>
-</div>
 
-<!-- Need - Cards -->
-<div id="features-wrapper">
-    <div class="container">
-        <div class="row" style="text-align: center">
-
-            <!-- Need 1 -->
-            <div class="col-4 col-12-medium">
-                <section class="box feature">
-                    <div class="icon-container">
-                        <img src="images/icons/icon-spectrum.png" alt="" width="40%" style="padding-top: 25px;"/>
+    <div id="main-wrapper">
+        <!-- Need -->
+        <div>
+            <div class="container">
+                <article>
+                    <h2>Why is GuideRadPROS <span style="color:CornflowerBlue;">needed</span>?</h2>
+                    <p><strong>Photon dosimeters</strong> are almost universally used in all radiation practices,
+                        covering personal and environmental monitoring, and emergency response, to assess the
+                        <strong>protection of people</strong> from harmful effects of ionising radiation. In the EU, the
+                        <strong>requirements</strong> for dose assessment and monitoring are set in Council Directive
+                        2013/59/Euratom, which is implemented in national legislations. Comparable world-wide
+                        requirements are given in IAEA Safety Standard Series No. GSR Part 3: General Safety
+                        Requirements.</p>
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/icon-spectrum.png" alt="" width="40%" />
+                            </div>
+                            <h3 style="text-align: center">X-ray spectrometry and ISO 4037 implementation</h3>
+                            <ul>
+                                <li>Photon dosimeters are tested and calibrated in photon reference fields according to
+                                    the ISO 4037:2019 standard.</li>
+                                <li>The new requirements of the 2019 update result in high costs and manpower
+                                    to establish such reference fields.</li>
+                                <li>Small laboratories and emerging metrology institutes have not been able to fully
+                                    implement the standard.</li>
+                                <li>Guidance to implement ISO 4037 series  is needed.</li>
+                                <li>Missing data regarding 241Am reference fields, high voltage measurements of x-ray
+                                    units and the associated uncertainty estimates are needed.</li>
+                                <li>Harmonized procedures for traceable X-ray spectrometry are needed.</li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/icon-meter.png" alt="" width="40%" style="text-align: center"/>
+                            </div>
+                            <h3 style="text-align: center">Procedures for type testing standards</h3>
+                            <ul>
+                                <li>The type testing of the dosimeters is done against the IEC standards.</li>
+                                <li>There are many standards with conflicting requirements for the same type of dosimeter.</li>
+                                <li>There are standardisation gaps, due to recent or upcoming developments in
+                                    measurement technology (e.g. spectrodosimetry) and new technologies (e.g., machine
+                                    learning, artificial intelligence...).</li>
+                                <li>The standards must be harmonized.</li>
+                                <li>Future standardisation needs must be analysed.</li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/icon-innovation.png" alt="" width="40%" style="text-align: center"/>
+                            </div>
+                            <h3 style="text-align: center">Future needs of standardisation </h3>
+                            <ul>
+                                <li>ICRU report 95 proposed new operational quantities to replace the current
+                                quantities</li>
+                                <li>A revision of the type test standards is needed.</li>
+                                <li>A characterization study of existing dosimeters is needed to see whether software
+                                    and/or design modifications are necessary.</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="inner">
-                        <header>
-                            <h2>Harmonised approach to X-ray spectrometry and implementation of ISO 4037</h2>
-                        </header>
-                        <p>Radiation protection dosimeters measure ambient dose equivalent, directional dose equivalent,
-                            or personal dose equivalent. These dosimeters are tested and calibrated in photon reference
-                            fields according to the ISO 4037:2019 standard series. In the 2019 update, many changes were
-                            introduced in the ISO 4037 standard. The new requirements result in high costs and manpower
-                            to establish such reference fields and therefore, small laboratories and emerging metrology
-                            institutes have not been able to fully implement the standard.</p>
-                        <p>Furthermore, there is a need to provide guidance to implement ISO 4037 series and to provide
-                            missing data regarding 241Am reference fields, high voltage measurements of x-ray units and
-                            the associated uncertainty estimates. Furthermore, harmonized procedures for traceable X-ray
-                            spectrometry are needed.</p>
-                    </div>
-                </section>
+                </article>
             </div>
-
-            <!-- Need 2 -->
-            <div class="col-4 col-12-medium">
-                <section class="box feature">
-                    <!-- <a href="#" class="image featured"><img src="images/placeholders/pic01.jpg" alt=""/></a> -->
-                    <div class="icon-container">
-                        <img src="images/icons/icon-meter.png" alt="" width="40%" style="padding-top: 25px;"/>
-                    </div>
-                    <div class="inner">
-                        <header>
-                            <h2>Validated procedures for harmonised type testing standards</h2>
-                        </header>
-                        <p>The type testing of the dosimeters is done against the IEC standards but there are many
-                            standards with conflicting requirements for the same type of dosimeter. There are also
-                            standardisation gaps, due to recent or upcoming developments in measurement technology, such
-                            as use of spectrodosimetry, new technologies related, e.g., to the use of machine learning,
-                            artificial intelligence, and other methods based on computation. Therefore, the standards
-                            must be harmonized, and future standardisation needs must be analysed. </p>
-                    </div>
-                </section>
-            </div>
-
-            <!-- Need 3 -->
-            <div class="col-4 col-12-medium">
-                <section class="box feature">
-                    <!-- <a href="#" class="image featured"><img src="images/placeholders/pic01.jpg" alt=""/></a> -->
-                    <div class="icon-container">
-                        <img src="images/icons/icon-innovation.png" alt="" width="40%" style="padding-top: 25px;"/>
-                    </div>
-                    <div class="inner">
-                        <header>
-                            <h2>Assess future standardisation needs</h2>
-                        </header>
-                        <p>Finally, ICRU report 95 proposed new operational quantities to replace the current
-                            quantities. This will require a revision of the type test standards and characterization
-                            study of existing dosimeters to see whether software and/or design modifications are
-                            necessary. </p>
-                    </div>
-                </section>
-            </div>
-
         </div>
-    </div>
-</div>
 
-<!-- Objectives - Introduction -->
-<div id="main-wrapper">
-    <div class="container">
-        <div id="content">
-            <article>
-                <h2>Objectives: Which are GuideRadPROS project objectives?</h2>
-                <p>The overall objective is to support standardisation in photon-based radiation protection dosimetry, related to ISO 4037 standard series, IEC standards and the changes due to new operational quantities of ICRU Report 95. The specific objectives are:</p>
-            </article>
+        <!-- Objectives -->
+        <div style="background: rgb(100, 149, 237, 0.1); padding-top: 50px">
+            <div class="container">
+                <article>
+                    <h2>Which are the <span style="color:CornflowerBlue;">objectives</span> of GuideRadPROS?</h2>
+                    <p>The <strong>overall objective</strong> is to support standardisation in photon-based radiation protection
+                    dosimetry, related to ISO 4037 standard series, IEC standards and the changes due to new
+                    operational quantities of ICRU Report 95. The <strong>specific objectives</strong> are:</p>
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/icon-spectrum.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center"></h3>
+                            <ul>
+                                <li>Develop a traceable, harmonized metrological approach to X-ray spectrometry in
+                                concordance with the ISO 4037 standard series.</li>
+                                <li>Evaluate the discrepancies between measured and calculated half value layer (HVL) of X-ray spectra.</li>
+                                <li>Produce data to update requirements for reference X-ray fields.</li>
+                                <li>Produce data for 241-Am reference fields.</li>
+                                <li>Evaluate methods to determine X-ray tube high voltage (HV)</li>
+                            </ul>
+
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/icon-webinar.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center"></h3>
+                            <ul>
+                                <li>To develop cost effective procedures and guidance for the calibration of dosimeters
+                                    and determination of their response as a function of photon energy.</li>
+                                <li>This will enable smaller metrology institutes and other calibration laboratories to
+                                    implement the ISO 4037 standard series with respect to actual quantities and ICRU
+                                    Report 95 quantities.</li>
+                                <li>To provide training to emerging metrology institutes.</li>
+                                <li>Produce open e-learning materials on the calibration procedures.</li>
+                            </ul>
+
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/icon-meter.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center"></h3>
+                            <ul>
+                                <li>To produce guidance on validated procedures for harmonized type testing based on IEC
+                                    standards for the commonly used dosimeters with valid metrological solutions for
+                                    situations where requirements in existing standards deviate and standardisation gaps
+                                    exist.</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/compliant.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center"></h3>
+                            <ul>
+                                <li>To assess future standardisation needs.</li>
+                                <li>To produce a guidance document for the implementation of the new operational
+                                    quantities of ICRU Report 95 into standards and regulations.</li>
+                                <li>To disseminate this to policymakers, manufacturers, regulators, metrology networks,
+                                    standardisation bodies and laboratories.</li>
+                            </ul>
+
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/updated.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center"></h3>
+                            <ul>
+                                <li>To collaborate with ISO and IEC and the users of their dosimetry standards
+                                    (including the EMN on radiation protection and the IAEA) to ensure that project
+                                    outputs align with their needs.</li>
+                                <li>To produce guidance on the implementation of new operational quantities of ICRU
+                                    Report 95 into standards and regulations and recommendations. </li>
+                                <li>To disseminate project outcomes for inclusion into ISO 4037.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </div>
-    </div>
-</div>
 
-<!-- Objectives - Cards -->
-<div id="features-wrapper">
-    <div class="container">
-        <div class="row" style="text-align: center">
-
-            <!-- Objective 1 -->
-            <div class="col-4 col-12-medium">
-                <section class="box feature">
-<!--                    <div class="icon-container">-->
-<!--                        <img src="images/icons/icon-spectrum.png" alt="" width="40%" style="padding-top: 25px;"/>-->
-<!--                    </div>-->
-                    <div class="inner">
-<!--                        <header>-->
-<!--                            <h2>Harmonised approach to X-ray spectrometry and implementation of ISO 4037</h2>-->
-<!--                        </header>-->
-                        <p>To develop a traceable, harmonized metrological approach to X-ray spectrometry in concordance with the ISO 4037 standard series, evaluate the discrepancies between measured and calculated half value layer (HVL) of X-ray spectra and to produce data to update requirements for reference X-ray fields. To produce data for 241Am reference fields and to evaluate methods to determine X-ray tube high voltage (HV).</p>
+        <!-- Results -->
+        <div style="padding-top: 50px">
+            <div class="container">
+                <article>
+                    <h2>What <span style="color:CornflowerBlue;">results</span> do GuideRadPROS expect to generate?</h2>
+                    <p></p>
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/check-list.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center">Good practice guides</h3>
+                            <ul>
+                                <li>Guide for harmonised type testing.</li>
+                                <li>Guide for standardisation and legal requirements for radiation protection dosimeters
+                                    in different applications and in different countries</li>
+                                <li>Guide for reference field spectrometry</li>
+                                <li>Guide for the use of spectrodosimeters</li>
+                                <li>Guide for the implementation of the new operational quantities proposed in ICRU
+                                    Report 95.</li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/idea.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center">Proposal to update ISO 4037</h3>
+                            <ul>
+                                <li>Proposal to update ISO 4037 standard series with new data.</li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/icon-webinar.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center">Training on ISO 4037 </h3>
+                            <ul>
+                                <li>Training courses.</li>
+                                <li>Open E-learning material.</li>
+                            </ul>
+                        </div>
                     </div>
-                </section>
+                </article>
             </div>
-
-            <!-- Objective 2 -->
-            <div class="col-4 col-12-medium">
-                <section class="box feature">
-<!--                    <div class="icon-container">-->
-<!--                        <img src="images/icons/icon-spectrum.png" alt="" width="40%" style="padding-top: 25px;"/>-->
-<!--                    </div>-->
-                    <div class="inner">
-<!--                        <header>-->
-<!--                            <h2>Harmonised approach to X-ray spectrometry and implementation of ISO 4037</h2>-->
-<!--                        </header>-->
-                        <p>To develop cost effective procedures and guidance for the calibration of dosimeters and determination of their response as a function of photon energy to enable smaller metrology institutes and other calibration laboratories to implement the ISO 4037 standard series with respect to actual quantities and ICRU Report 95 quantities. To provide training to emerging metrology institutes and to produce open e-learning materials on the calibration procedures.</p>
-                    </div>
-                </section>
-            </div>
-
-            <!-- Objective 3 -->
-            <div class="col-4 col-12-medium">
-                <section class="box feature">
-<!--                    <div class="icon-container">-->
-<!--                        <img src="images/icons/icon-spectrum.png" alt="" width="40%" style="padding-top: 25px;"/>-->
-<!--                    </div>-->
-                    <div class="inner">
-<!--                        <header>-->
-<!--                            <h2>Harmonised approach to X-ray spectrometry and implementation of ISO 4037</h2>-->
-<!--                        </header>-->
-                        <p>To produce guidance on validated procedures for harmonized type testing based on IEC standards (e.g., IEC 61526, IEC 60846-1, IEC 60846-2, IEC 61017, IEC 60532, and IEC 62387) for the commonly used dosimeters with valid metrological solutions for situations where requirements in existing standards deviate and standardisation gaps exist.</p>
-                    </div>
-                </section>
-            </div>
-
-            <!-- Objective 4 -->
-            <div class="col-4 col-12-medium">
-                <section class="box feature">
-<!--                    <div class="icon-container">-->
-<!--                        <img src="images/icons/icon-spectrum.png" alt="" width="40%" style="padding-top: 25px;"/>-->
-<!--                    </div>-->
-                    <div class="inner">
-<!--                        <header>-->
-<!--                            <h2>Harmonised approach to X-ray spectrometry and implementation of ISO 4037</h2>-->
-<!--                        </header>-->
-                        <p>To assess future standardisation needs and to produce a guidance document for the implementation of the new operational quantities of ICRU Report 95 into standards and regulations, and to disseminate this to policymakers, manufacturers, regulators, metrology networks, standardisation bodies and laboratories.</p>
-                    </div>
-                </section>
-            </div>
-
-            <!-- Objective 5 -->
-            <div class="col-4 col-12-medium">
-                <section class="box feature">
-<!--                    <div class="icon-container">-->
-<!--                        <img src="images/icons/icon-spectrum.png" alt="" width="40%" style="padding-top: 25px;"/>-->
-<!--                    </div>-->
-                    <div class="inner">
-<!--                        <header>-->
-<!--                            <h2>Harmonised approach to X-ray spectrometry and implementation of ISO 4037</h2>-->
-<!--                        </header>-->
-                        <p>To collaborate with ISO and IEC and the users of their dosimetry standards (including the EMN on radiation protection and the IAEA) to ensure that project outputs align with their needs. To produce guidance on the implementation of new operational quantities of ICRU Report 95 into standards and regulations and recommendations. To disseminate project outcomes for inclusion into ISO 4037.</p>
-                    </div>
-                </section>
-            </div>
-
         </div>
-    </div>
-</div>
 
-<!-- Progress and results - Introduction -->
-<div id="main-wrapper">
-    <div class="container">
-        <div id="content">
-            <article>
-                <h2>Progress beyond the state of the art and results</h2>
-            </article>
+        <!-- DCE Measures -->
+        <div style="background: rgb(100, 149, 237, 0.1); padding-top: 50px">
+            <div class="container">
+                <article>
+                    <h2>What <span style="color:CornflowerBlue;">DCE measures</span> will GuideRadPROS apply?</h2>
+                    <p></p>
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/disseminate.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center">Dissemination</h3>
+                            <ul>
+                                <li>Five open access publications on harmonised spectrometry methodology, recommendations on ISO 4037 requirements and implementation on ICRU Report 95 quantities.</li>
+                                <li>Spectrometric and dosimetric conversion coefficients will be compared between laboratories.</li>
+                                <li>A workshop on implementation of ISO 4037 and ICRU Report 95 quantities will be held to train emerging calibration laboratories.</li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/speech-bubble.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center">Communication</h3>
+                            <ul>
+                                <li>Create a project website accessible to all participants to exchange knowledge on
+                                    results.</li>
+                                <li>Provide open access e-learning resources as training for emerging metrology
+                                    institutes.</li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/practice.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center">Exploitation</h3>
+                            <ul>
+                                <li>Harmonisation of ISO 4037 and IEC type testing requirements and test methods for area and personal dosimeters in radiation protection.</li>
+                                <li>The necessary upgrade on the system of operational quantities for protection against ionising radiation will benefit from the results obtained during the project.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </div>
-    </div>
-</div>
 
-<!-- Progress and results - Cards -->
-<div id="features-wrapper">
-    <div class="container">
-        <div class="row" style="text-align: center">
-
-            <!-- Progress and results 1 -->
-            <div class="col-3 col-12-medium">
-                <section class="box feature">
-                    <div class="icon-container">
-                        <img src="images/icons/icon-spectrum.png" alt="" width="40%" style="padding-top: 25px;"/>
+        <!-- Target groups -->
+        <div style="padding-top: 50px">
+            <div class="container">
+                <article>
+                    <h2>Which are the <span style="color:CornflowerBlue;">target groups</span> of GuideRadPROS?</h2>
+                    <p></p>
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/scientist.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center"></h3>
+                            <ul>
+                                <li>National Metrology Institutes.</li>
+                                <li>Designated Institutes.</li>
+                                <li>Secondary Standard Dosimetry Laboratories.</li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/compliant.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center"></h3>
+                            <ul>
+                                <li>Standardisation bodies.</li>
+                                <li>Policy makers and regulators.</li>
+                                <li>International organisations preparing radiation protection guidelines.</li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/factory.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center"></h3>
+                            <ul>
+                                <li>Manufacturers of area and personal dosimeters.</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="inner">
-                        <header>
-                            <h2>Harmonized approach to X-ray spectrometry and implementation of ISO 4037</h2>
-                        </header>
-                        <p>Support will be given to calibration laboratories to build up their spectrometry methods by guidance documents and training on characterising the spectrometers and unfolding the measured X-ray spectra to implement the ISO 4037 standard series. Data will be produced to include 241Am in the future version of the standard to harmonize this radiation field and to reduce the uncertainties in type testing and calibration of the dosimeters.</p>
-                    </div>
-                </section>
+                </article>
             </div>
-
-            <!-- Progress and results 2 -->
-            <div class="col-3 col-12-medium">
-                <section class="box feature">
-                    <div class="icon-container">
-                        <img src="images/icons/icon-webinar.png" alt="" width="40%" style="padding-top: 25px;"/>
-                    </div>
-                    <div class="inner">
-                        <header>
-                            <h2>Training on requirements of ISO 4037 and calibration in reference fields</h2>
-                        </header>
-                        <p>Hands-on training and e-learning material will be produced to support calibration laboratories to implement photon reference fields according to the ISO 4037 standard series and to apply changes due to new quantities of ICRU Report 95 in the calibration fields.</p>
-                    </div>
-                </section>
-            </div>
-
-            <!-- Progress and results 3 -->
-            <div class="col-3 col-12-medium">
-                <section class="box feature">
-                    <div class="icon-container">
-                        <img src="images/icons/icon-meter.png" alt="" width="40%" style="padding-top: 25px;"/>
-                    </div>
-                    <div class="inner">
-                        <header>
-                            <h2>Validated procedures for harmonized type testing standards</h2>
-                        </header>
-                        <p>The need for harmonization of existing standards of radiation dosimeters and the need to close the existing standardisation gaps will be addressed. Analysis of the standards and overview of inconsistencies will be performed to provide recommendation for harmonization to IEC. A document will be prepared for manufacturers to identify relevant legal requirements for dosimeters and dose measurements in different countries.</p>
-                    </div>
-                </section>
-            </div>
-
-            <!-- Progress and results 4 -->
-            <div class="col-3 col-12-medium">
-                <section class="box feature">
-                    <div class="icon-container">
-                        <img src="images/icons/icon-innovation.png" alt="" width="40%" style="padding-top: 25px;"/>
-                    </div>
-                    <div class="inner">
-                        <header>
-                            <h2>Assess future standardisation needs and produce guidance to implement new quantities into the standards</h2>
-                        </header>
-                        <p>An analysis of the state-of-the-art and upcoming technologies in dosimetry will be done. The incompatibilities of these technologies with respect to the requirements from the existing IEC standards will be evaluated and the potential needs for new or updated standards considering the new technologies will be identified and analysed. Special attention will go to the practical implementation of computational dosimetry and spectrodosimeters to the future IEC standards. Finally, the impact of ICRU Report 95 to the ISO 4037 standard series and IEC standards will be evaluated and reported.</p>
-                    </div>
-                </section>
-            </div>
-
         </div>
+
+        <!-- Outcomes -->
+        <div style="background: rgb(100, 149, 237, 0.1); padding-top: 50px">
+            <div class="container">
+                <article>
+                    <h2>Which are the expected <span style="color:CornflowerBlue;">outcomes</span> of GuideRadPROS?</h2>
+                    <ul>
+                        <li>Efficient and accurate <strong>methods to calibrate</strong> radiation dosimeters in X-ray beams.</li>
+                        <li>More complete <strong>physical data</strong> for ISO 4037 standard series.</li>
+                        <li>Improved <strong>knowledge on limitations</strong> to current requirements at International Standards including uncertainties involved.</li>
+                        <li>Harmonisation of <strong>spectrometry techniques</strong> between NMIs to establish characterised reference fields for traceable calibrations in radiation protection.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+
+        <!-- Impact -->
+        <div style="padding-top: 50px">
+            <div class="container">
+                <article>
+                    <h2>Which are the expected <span style="color:CornflowerBlue;">impacts</span> of GuideRadPROS?</h2>
+                    <p></p>
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/data-science.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center">Scientific</h3>
+                            <ul>
+                                <li>A <strong>structured methodology</strong> for photon fluence spectrometry to establish reference beams including detector characterisation, recommendations on existing unfolding methods, determination of conversion coefficients and estimates of the uncertainty involved.</li>
+                                <li>New <strong>beam qualities</strong> that can be developed for upcoming applications on the basis of this investigation.</li>
+                                <li>Input on <strong>impact of ICRU Report 95</strong> quantities for the establishment of reference fields at NMIs.</li>
+                            </ul>
+
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/technology.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center">Economic/Technological</h3>
+                            <ul>
+                                <li>Improved <strong>quality assurance</strong> by increasing confidence on conversion coefficients determined by NMIs following International Standards will allow new CMC lines to be developed for customers.</li>
+                                <li>Identification of <strong>requirements and updates</strong> on IEC standards for new quantities according ICRU Report 95.</li>
+                                <li>This will allow guiding <strong>policy makers and radiation protection officers</strong> the implementation of the new operational quantities.</li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div style="text-align: center">
+                                <img src="images/icons/world.png" alt="" width="40%" style="padding-top: 25px;"/>
+                            </div>
+                            <h3 style="text-align: center">Societal</h3>
+                            <ul>
+                                <li>Increase the use of <strong>spectrometric techniques</strong> at metrology institutes to characterise reference fields for traceable calibration of photon dosimeters in radiation protection according to the requirements of the international standards intended to guarantee the safety of the population against the ionizing radiation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
     </div>
-</div>
-
-<!-- Outcomes and impact  --><!-- Publishable summary -->
-<!--            <article>-->
-<!--                <h2>Outcomes and impact </h2>-->
-<!--                <p>Outcomes for industrial and other user communities </p>-->
-<!--                <p>The revision of the ISO 4037 standards and the adoption of the ICRU Report 95 operational quantities have an impact on realization of radiation beam qualities and the value of the conversion coefficients from air kerma to dose equivalents, respectively. The new operational quantities introduced in ICRU Report 95, the ambient dose and personal dose, have a different energy and angle dependence with respect to the incident radiation field compared to the current quantities. Thus, these new quantities require changes in the characteristics of the measuring equipment. These changes will have consequences for all industrial stakeholders, including calibration laboratories, dosimeter manufacturers, dosimetry services and users of ionizing radiation in industry, research and medical applications where radiation protection measurements are needed. The change affects the legal dose limits given in Council Directive 2013/59/Euratom, thus requiring careful consideration of how the dose limits should be set in future update of the directive. </p>-->
-<!--                <p>The changes made to ISO standards and especially the adoption of the spectrometric characterization of radiation beams will improve the harmonization of calibration beams and their traceability to national references and the accuracy of the calibrations. The latter can be drastically improved allowing a more precise and comparable characterization of the measuring devices. Together with harmonized IEC standards this leads to the revision of the type tests carried out before the devices are put on the market. </p>-->
-<!--                <p>This project will assess the consequences on radiation protection measurements and dosimeters caused by the adoption of new operational quantities proposed in the ICRU Report 95 and inform the manufacturers who will then be able to anticipate the prospected changes, by planning the recalibration, replacement, or adaptation of existing measuring devices. Thus, the transition from the present to the new operational quantities may be carried out in the most harmonious way possible. It is expected that the new operational quantities will be in force with the next update of Council Directive 2013/59/Euratom. </p>-->
-<!--                <p>These changes in standards and quantities will require modifications to the dosimeters, either in the data processing algorithms, or in the physical design of the detectors, or both, to remain in compliance with the type test acceptance criteria. Adaptation of these criteria may be necessary in coordination with the improved measurement accuracy and new technologies discussed above.  </p>-->
-<!--                <p>Outcomes for the metrology and scientific communities </p>-->
-<!--                <p>The implementation and harmonization of the spectrometry measurements will ensure reliable validation and calculation of laboratory-specific conversion coefficients. The guidance developed within this project will lead to a better understanding of uncertainties and comparable procedures and increasing therefore the confidence in radiation metrology and testing. Spectrometry will provide more accurate and complete data on radiation beams, which is currently available only to a few institutes, and thus will help proliferation of scientific knowledge, techniques and associated research. With expanded spectrometric capabilities, institutes can develop new radiation fields for future applications, needed to metrologically support developments in technology and regulation.</p>-->
-<!--                <p>The evaluation of the impact of the new ICRU Report 95 quantities on the photon reference field standards will allow for an informed realization of calibration fields in the metrology institutes and calibration laboratories. </p>-->
-<!--                <p>Outcomes for relevant standards </p>-->
-<!--                <p>The project will contribute to the implementation and future updates of the ISO 4037 standards series and IEC standards that set requirements for radiation protection dosimeters by providing relevant data, guidance documents and validated limits for the performance of the dosimeters. Moreover, the implementation of the newly proposed operational quantities of ICRU Report 95 will have an impact on some of the limits given by the ISO 4037:2019-1 standard for matched and characterized reference fields and on the radiation doses recorded by the dosimeters. This will affect the personal doses that are monitored nowadays in compliance with Council Directive 2013/59/Euratom and will have an effect on the dose limits and the future update of this Basic Safety Standard and national implementations thereof. </p>-->
-<!--                <p>Longer-term economic, social and environmental impacts </p>-->
-<!--                <p>Stronger confidence in radiation protection dosimetry, both via the promotion of the implementation of the ISO 4037 standard series, and via the assessment of the impact of the new operational quantities defined in ICRU Report 95 on daily measurements in radiation protection, has the clear potential of making radiation protection dosimetry practices even better than presently; it also enables small laboratories to set up the reference beams according to the standard, thus increasing the availability of harmonized testing and calibration services. This provides an advantage to European-based dosimeter manufacturers on the global market. </p>-->
-<!--                <p>Through the objectives of this project, procedures will be brought to maturity so that the implementation of the ISO 4037 standard series both at NMI/DIs and through European national networks of accredited dosimetry calibration laboratories will be facilitated and, therefore, requests of instrument tests and calibrations can be satisfied within Europe. </p>-->
-<!--                <p>With the adoption of the new ISO 4037:2019 standard series throughout Europe, and with the related CMCs and services that derive from them, the European citizen would find him/herself in a context of measurement confidence and reliability, the basis on which citizen safety and security can hinge on.</p>-->
-<!--                <p>More reliable, accurate, and harmonized tested instrumentation in radiation protection dosimetry, possibly supported by the well-informed technical adoption of the new operational quantities defined in ICRU Report 95, could also lead to a stronger European industry and an increased wealth that this can bring.</p>-->
-<!--            </article>-->
-
-<!-- Expected results --><!-- Summary of impact pathway -->
-<!--            <article>-->
-<!--                <h2>Expected results</h2>-->
-<!--                <h3>What do you expect to generate by the end of the project?</h3>-->
-<!--                <p>Five good practice guides for harmonised type testing, standardisation and legal requirements for radiation protection dosimeters in different applications and in different countries, reference field spectrometry, guidance on the use of spectrodosimeters, and a guidance document for the implementation of the new operational quantities proposed in ICRU Report 95.</p>-->
-<!--                <p>Proposal to update ISO 4037 standard series with new data.</p>-->
-<!--                <p>Training courses and open E-learning material.</p>-->
-<!--            </article>-->
-
-<!-- DCE Measures --><!-- Summary of impact pathway -->
-<!--            <article>-->
-<!--                <h2>DCE Measures</h2>-->
-<!--                <h3>What dissemination, communication and exploitation measures will you apply to the results?</h3>-->
-<!--                <p>Communication: a project website accessible to all participants to exchange knowledge on results will be created. Open access e-learning resources will be provided as training for emerging metrology institutes.</p>-->
-<!--                <p>Dissemination: Five open access publications on harmonised spectrometry methodology, recommendations on ISO 4037 requirements and implementation on ICRU Report 95 quantities. Spectrometric and dosimetric conversion coefficients will be compared between laboratories. A workshop on implementation of ISO 4037 and ICRU Report 95 quantities will be held to train emerging calibration laboratories.</p>-->
-<!--                <p>Exploitation: Harmonisation of ISO 4037 and IEC type testing requirements and test methods for area and personal dosimeters in radiation protection. The necessary upgrade on the system of operational quantities for protection against ionising radiation will benefit from the results obtained during the project.</p>-->
-<!--            </article>-->
-
-<!-- Target groups --><!-- Summary of impact pathway -->
-<!--            <article>-->
-<!--                <h2>Target groups</h2>-->
-<!--                <h3>Who will use or further up-take the results of the project? Who will benefit from the results of the project?</h3>-->
-<!--                <p>End-users: NMIs, Designated Institutes and Secondary Standard Dosimetry Laboratories</p>-->
-<!--                <p>Others who will benefit: Standardisation bodies, manufacturers of area and personal dosimeters and policy makers and regulators. International organisations preparing the radiation protection guidelines.</p>-->
-<!--            </article>-->
-
-<!-- Outcomes --><!-- Summary of impact pathway -->
-<!--            <article>-->
-<!--                <h2>Outcomes</h2>-->
-<!--                <h3>What change do you expect to see after successful dissemination and exploitation of project results to the target group(s)?</h3>-->
-<!--                <p>Efficient and accurate methods to calibrate radiation dosimeters in X-ray beams. More complete physical data for ISO 4037 standard series.</p>-->
-<!--                <p>Improved knowledge on limitations to current requirements at International Standards including uncertainties involved. Harmonisation of spectrometry techniques between NMIs to establish characterised reference fields for traceable calibrations in radiation protection.</p>-->
-<!--            </article>-->
-
-<!-- Impact --><!-- Summary of impact pathway -->
-<!--            <article>-->
-<!--                <h2>Impact</h2>-->
-<!--                <h3>What are the expected wider scientific, economic and societal effects of the project contributing to the expected impacts outlined in the work programme and call scope?</h3>-->
-<!--                <p>Scientific: A structured methodology for photon fluence spectrometry to establish reference beams including detector characterisation, recommendations on existing unfolding methods, determination of conversion coefficients and estimates of the uncertainty involved. New beam qualities that can be developed for upcoming applications on the basis of this investigation. Input on impact of ICRU Report 95 quantities for the establishment of reference fields at NMIs.</p>-->
-<!--                <p>Economic/Technological: Improved quality assurance by increasing confidence on conversion coefficients determined by NMIs following International Standards will allow new CMC lines to be developed for customers. Identification of requirements and updates on IEC standards for new quantities according ICRU Report 95. This will allow guiding policy makers and radiation protection officers the implementation of the new operational quantities.</p>-->
-<!--                <p>Societal: The results are expected to increase the use of spectrometric techniques at metrology institutes to characterise reference fields for traceable calibration of photon dosimeters in radiation protection according to the requirements of the international standards intended to guarantee the safety of the population against the ionizing radiation.</p>-->
-<!--            </article>-->
 
 {% endblock %}
-
