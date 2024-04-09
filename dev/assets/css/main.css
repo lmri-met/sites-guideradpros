@@ -1777,6 +1777,27 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+	#colaboradores {
+    position: absolute;
+    top: -10px; /* Mueve las imágenes 10px hacia arriba */
+    right: -180px; /* Mueve las imágenes 10px hacia la derecha */
+    display: flex;
+    align-items: center;
+	margin-bottom: 10px;
+	flex-wrap: wrap;
+    }
+			
+	#colaboradores img {
+		width: 50px; /* Ajusta el tamaño según tus necesidades */
+		height: auto; /* Para mantener la proporción */
+		margin-left: 10px; /* Espacio entre las imágenes */
+	}
+
+	@media screen and (max-width: 736px) {
+
+
+	}
+
 /* Box */
 
 	.box {
@@ -1936,6 +1957,7 @@ input, select, textarea {
 
 	#logo {
 		display: inline-block;
+		width:250px;
 	}
 
 		#logo h1 {
