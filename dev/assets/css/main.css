@@ -1779,24 +1779,32 @@ input, select, textarea {
 
 	#colaboradores {
     position: absolute;
-    top: -10px; /* Mueve las imágenes 10px hacia arriba */
-    right: -180px; /* Mueve las imágenes 10px hacia la derecha */
+    top: -11px; /* Mueve las imágenes 10px hacia arriba */
     display: flex;
     align-items: center;
-	margin-bottom: 10px;
+	margin-bottom: 60px;
 	flex-wrap: wrap;
     }
 			
 	#colaboradores img {
-		width: 50px; /* Ajusta el tamaño según tus necesidades */
+		width: 33px; /* Ajusta el tamaño según tus necesidades */
 		height: auto; /* Para mantener la proporción */
 		margin-left: 10px; /* Espacio entre las imágenes */
 	}
 
-	@media screen and (max-width: 736px) {
 
+	@media screen and (max-width: 3000px) {
+        #colaboradores {
+			right: 16px; /* Mueve las imágenes 10px hacia la derecha */
 
 	}
+	}
+
+	@media screen and (max-width: 980px) {
+        #colaboradores {
+			right: 10px; /* Mueve las imágenes 10px hacia la derecha */
+	}
+    }
 
 /* Box */
 
@@ -1958,6 +1966,7 @@ input, select, textarea {
 	#logo {
 		display: inline-block;
 		width:250px;
+		margin-top: 11px;
 	}
 
 		#logo h1 {
@@ -1989,6 +1998,7 @@ input, select, textarea {
 		right: 0;
 		top: 0;
 		font-size: 0.9em;
+		margin-top: 20px;
 	}
 
 		#nav ul {
