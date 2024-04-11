@@ -1777,35 +1777,34 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-	#colaboradores {
-    position: absolute;
-    top: -7px; /* Mueve las imágenes 10px hacia arriba */
-    display: flex;
-	display:inline-block;
-    align-items: center;
-	margin-bottom: 60px;
-	flex-wrap: wrap;
-    }
+	#funders {
+		 position: absolute;
+		 top: -7px; /* Move images up */
+		 display: flex;
+		 display: inline-block;
+		 align-items: center;
+		 margin-bottom: 60px;
+		 flex-wrap: wrap;
+	}
 			
-	#colaboradores img {
-		width: 42px; /* Ajusta el tamaño según tus necesidades */
-		height: auto; /* Para mantener la proporción */
-		margin-left: 10px; /* Espacio entre las imágenes */
-	}
-
-
+	  #funders img {
+			width: 42px;
+			height: auto; /* To maintain proportion */
+			margin-left: 10px; /* Space between images */
+			}
+			
+			
 	@media screen and (max-width: 3000px) {
-        #colaboradores {
-			right: 16px; /* Mueve las imágenes 10px hacia la derecha */
-
-	}
-	}
-
+		#funders {
+			right: 16px; /* Move images to the right */
+		}
+		}
+			
 	@media screen and (max-width: 980px) {
-        #colaboradores {
-			right: 10px; /* Mueve las imágenes 10px hacia la derecha */
-	}
-    }
+		#funders {
+			right: 10px; /* Move images 10px to the right */
+		}
+		}
 
 /* Box */
 
