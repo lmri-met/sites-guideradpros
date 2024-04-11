@@ -1779,15 +1779,16 @@ input, select, textarea {
 
 	#colaboradores {
     position: absolute;
-    top: -11px; /* Mueve las imágenes 10px hacia arriba */
+    top: -7px; /* Mueve las imágenes 10px hacia arriba */
     display: flex;
+	display:inline-block;
     align-items: center;
 	margin-bottom: 60px;
 	flex-wrap: wrap;
     }
 			
 	#colaboradores img {
-		width: 33px; /* Ajusta el tamaño según tus necesidades */
+		width: 42px; /* Ajusta el tamaño según tus necesidades */
 		height: auto; /* Para mantener la proporción */
 		margin-left: 10px; /* Espacio entre las imágenes */
 	}
