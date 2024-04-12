@@ -1777,6 +1777,35 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+	#funders {
+		 position: absolute;
+		 top: -7px; /* Move images up */
+		 display: flex;
+		 display: inline-block;
+		 align-items: center;
+		 margin-bottom: 60px;
+		 flex-wrap: wrap;
+	}
+			
+	  #funders img {
+			width: 42px;
+			height: auto; /* To maintain proportion */
+			margin-left: 10px; /* Space between images */
+			}
+			
+			
+	@media screen and (max-width: 3000px) {
+		#funders {
+			right: 16px; /* Move images to the right */
+		}
+		}
+			
+	@media screen and (max-width: 980px) {
+		#funders {
+			right: 10px; /* Move images 10px to the right */
+		}
+		}
+
 /* Box */
 
 	.box {
@@ -1936,6 +1965,8 @@ input, select, textarea {
 
 	#logo {
 		display: inline-block;
+		width:250px;
+		margin-top: 11px;
 	}
 
 		#logo h1 {
@@ -1967,6 +1998,7 @@ input, select, textarea {
 		right: 0;
 		top: 0;
 		font-size: 0.9em;
+		margin-top: 20px;
 	}
 
 		#nav ul {
