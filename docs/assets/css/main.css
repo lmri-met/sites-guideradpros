@@ -1806,40 +1806,80 @@ input, select, textarea {
 		}
 		}
 
-/* Box */
+/* Cards */
 
-	.box {
-		background: #fff;
-		border-radius: 6px;
-		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
-		padding: 2em;
-	}
+/* card container*/
 
-		.box.feature {
-			padding: 0;
-		}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Minimum width of 300px, with automatic adjustment */
+    gap: 20px; /* Space between cards */
+}
 
-			.box.feature .inner {
-				padding: 4em 2em 3em 2em;
-			}
+/* cards*/ 
 
-			.box.feature h2 {
-				font-size: 1.35em;
-			}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    overflow: hidden; /* To prevent content overflow */
+    display: flex; /* Using flexbox to vertically align content */
+    flex-direction: column; /* Aligning content in a column */
+	margin-top: 10px;
+}
 
-			.box.feature p {
-				margin: 0;
-			}
+.card .icon-container {
+    text-align: center; /* Center content */
+    margin-top: 20px; /* Top spacing */
+}
 
-			.box.feature .image {
-				position: relative;
-				margin: 0;
-			}
+.card img {
+    max-width: 100%;
+    width: 80%;
+    height: 145px; /* Adjust height automatically */
+    display: block; /* Ensure the image is a block */
+    margin: 0 auto; /* Center the image horizontally */
+	margin-top: 40px;
+	border-radius: 10px;
+}
 
-				.box.feature .image img {
-					border-bottom-left-radius: 0;
-					border-bottom-right-radius: 0;
-				}
+.card .inner {
+    padding: 20px;
+    flex-grow: 1; /* Allow internal content to grow to occupy available space */
+}
+
+.card header {
+    text-align: center; /* Center header */
+    margin-bottom: 10px;
+}
+
+#card-title{
+    font-size: 1.6em;
+    line-height: 130%;
+}
+
+#card-date {
+	margin-top: -3px;
+}
+
+#card-content {
+    font-size: 0.9em;
+    line-height: 1.8;
+	margin-top: 20px;
+    margin-bottom: 10px;
+	text-align: center;
+}
+
+.card a {
+    color: #2256cea6; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: none;
+}
 
 /* Icons */
 
