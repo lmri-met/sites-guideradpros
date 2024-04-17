@@ -585,3 +585,7 @@
 	};
 
 })(jQuery);
+
+const redirectTo = (target) => {
+    window.location.href = target;
+}

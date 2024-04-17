@@ -1827,6 +1827,7 @@ input, select, textarea {
     display: flex; /* Using flexbox to vertically align content */
     flex-direction: column; /* Aligning content in a column */
 	margin-top: 10px;
+	border-radius: 30px;
 }
 
 .card .icon-container {
@@ -1835,14 +1836,14 @@ input, select, textarea {
 }
 
 .card img {
-    max-width: 100%;
-    width: 80%;
-    height: 145px; /* Adjust height automatically */
+	max-width: 100%;
+    max-height: 300px; /* Adjust height automatically */
     display: block; /* Ensure the image is a block */
     margin: 0 auto; /* Center the image horizontally */
-	margin-top: 40px;
-	border-radius: 10px;
+	border: solid white 10px;
+	border-radius: 20px;
 }
+
 
 .card .inner {
     padding: 20px;
@@ -1852,11 +1853,13 @@ input, select, textarea {
 .card header {
     text-align: center; /* Center header */
     margin-bottom: 10px;
+	margin-top: -10px;
 }
 
 #card-title{
     font-size: 1.6em;
     line-height: 130%;
+
 }
 
 #card-date {
@@ -1872,13 +1875,40 @@ input, select, textarea {
 }
 
 .card a {
-    color: #2256cea6; /* Link color */
+    color: #0c5cd3f3; /* Link color */
     text-decoration: none;
-    font-weight: bold;
+	font-style: oblique;
+	font-weight: 550;
 }
 
 .card a:hover {
     text-decoration: none;
+}
+
+/* Aplicar estilos específicos para WP 5 y WP 6 */
+.card:nth-child(5),
+.card:nth-child(6) {
+    grid-column: span 2; /* Ocupar dos columnas */
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 980px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Cambiar a una sola columna */
+    }
+
+    /* Restaurar el ancho de las tarjetas de Work Package 5 y 6 */
+    .card:nth-child(5),
+    .card:nth-child(6) {
+        grid-column: auto; /* Restaurar el ancho automático */
+    }
+}
+
+/* Ajuste específico para evitar que WP 4 se desplace */
+@media screen and (min-width: 981px) and (max-width: 1681px) {
+    .card:nth-child(5),.card:nth-child(6)  {
+        grid-column: span 1; /* Ocupar 3 columnas */
+    }
 }
 
 /* Icons */
