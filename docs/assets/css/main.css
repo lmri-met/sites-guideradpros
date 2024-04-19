@@ -1808,6 +1808,8 @@ input, select, textarea {
 
 /* Cards */
 
+/*NORMAL CARDS*/
+
 /* card container*/
 
 .grid-container {
@@ -1885,29 +1887,138 @@ input, select, textarea {
     text-decoration: none;
 }
 
-/* Aplicar estilos específicos para WP 5 y WP 6 */
-.card:nth-child(5),
-.card:nth-child(6) {
-    grid-column: span 2; /* Ocupar dos columnas */
+/*WORK-PACKAGES CARDS*/
+
+/* card container*/
+
+.wp-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Minimum width of 300px, with automatic adjustment */
+    gap: 20px; /* Space between cards */
 }
 
-/* Estilos responsivos */
-@media screen and (max-width: 980px) {
-    .grid-container {
-        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Cambiar a una sola columna */
-    }
 
-    /* Restaurar el ancho de las tarjetas de Work Package 5 y 6 */
-    .card:nth-child(5),
-    .card:nth-child(6) {
-        grid-column: auto; /* Restaurar el ancho automático */
+.wp-card {
+	position: relative;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    overflow: hidden; /* To prevent content overflow */
+    display: flex; /* Using flexbox to vertically align content */
+    flex-direction: column; /* Aligning content in a column */
+	margin-top: 8px;
+	border-radius: 30px;
+}
+
+.wp-card .icon-container {
+    text-align: center; /* Center content */
+    margin-top: 20px; /* Top spacing */
+}
+
+.wp-card img {
+	max-width: 100%;
+    max-height: 300px; /* Adjust height automatically */
+    display: block; /* Ensure the image is a block */
+    margin: 0 auto; /* Center the image horizontally */
+	border: solid white 10px;
+	border-radius: 20px;
+}
+
+
+.wp-card .inner {
+    padding: 20px;
+    flex-grow: 1; /* Allow internal content to grow to occupy available space */
+}
+
+.wp-card header {
+    text-align: center; /* Center header */
+    margin-bottom: 10px;
+	margin-top: -10px;
+}
+
+.wp-card .title {
+	font-size: 25px;
+}
+
+.wp-card .text {
+    text-align: center;
+	line-height: 2em;
+	margin-bottom: 40px;
+}
+.wp-card a {
+    color: #0c5cd3f3; /* Link color */
+    text-decoration: none;
+	font-style: oblique;
+	font-weight: 550;
+}
+
+.wp-card a:hover {
+    text-decoration: none;
+}
+
+.wp-card .button-container {
+    position: absolute; /* Para permitir el posicionamiento absoluto dentro de la tarjeta */
+    bottom: 10px; /* Ajusta esta propiedad según sea necesario */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    text-align: center; /* Alinea el contenido del contenedor */
+    min-width: 9%; /* Ocupa todo el ancho de la tarjeta */
+}
+
+.wp-card button {
+    padding-left: 20px;
+    font-size: 0.8em; /* Reduce font size */
+    border-radius: 5px;
+    background-color: #0c5cd3f3; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Responsive styles */
+
+@media screen and (max-width:700px){
+
+	.wp-card {
+		grid-column: span 2;
+	}
+}
+
+/* Specific adjustment to prevent WP 4 from shifting */
+@media screen and (min-width: 700px) and (max-width: 1681px) {
+    /* Cards 1 and 2 in the first row */
+	.wp-card:nth-child(1),
+	.wp-card:nth-child(2) {
+		grid-column: span 1; /* Occupy one column */
+		grid-row: 1; /* First row */
+	}
+    /* Cards 3 and 4 in the second row */
+	.wp-card:nth-child(3),
+	.wp-card:nth-child(4) {
+		grid-column: span 1; /* Occupy one column */
+		grid-row: 2; /* Second row */
+	}
+    /* Cards 5 and 6 in separate rows */
+    .wp-card:nth-child(5) {
+        grid-column: span 2; /* Occupy two columns */
+        grid-row: 3; /* Third row */
+    }
+    .wp-card:nth-child(6) {
+        grid-column: span 2; /* Occupy two columns */
+        grid-row: 4; /* Fourth row */
     }
 }
 
-/* Ajuste específico para evitar que WP 4 se desplace */
-@media screen and (min-width: 981px) and (max-width: 1681px) {
-    .card:nth-child(5),.card:nth-child(6)  {
-        grid-column: span 1; /* Ocupar 3 columnas */
+@media screen and (max-width: 2281px) {
+    
+    /* Cards 5 and 6 in separate rows */
+    .wp-card:nth-child(5),
+	.wp-card:nth-child(6){
+        grid-column: span 2; /* Occupy two columns */
     }
 }
 
