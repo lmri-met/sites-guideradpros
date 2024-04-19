@@ -1958,12 +1958,12 @@ input, select, textarea {
 }
 
 .wp-card .button-container {
-    position: absolute; /* Para permitir el posicionamiento absoluto dentro de la tarjeta */
-    bottom: 10px; /* Ajusta esta propiedad según sea necesario */
-    left: 50%; /* Centra horizontalmente */
-    transform: translateX(-50%); /* Centra horizontalmente */
-    text-align: center; /* Alinea el contenido del contenedor */
-    min-width: 9%; /* Ocupa todo el ancho de la tarjeta */
+    position: absolute; /* Allow absolute positioning within the card */
+    bottom: 10px; /* Adjust this property as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    text-align: center; /* Align the content of the container */
+    min-width: 9%; /* Occupy the full width of the card */
 }
 
 .wp-card button {
