@@ -193,6 +193,10 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+	p {
+		line-height: 1.9em;
+	}
+
 /* Container */
 
 	.container {
@@ -1808,7 +1812,7 @@ input, select, textarea {
 
 /* Cards */
 
-/*NORMAL CARDS*/
+/*---NORMAL CARDS---*/
 
 /* card container*/
 
@@ -1842,8 +1846,7 @@ input, select, textarea {
     max-height: 300px; /* Adjust height automatically */
     display: block; /* Ensure the image is a block */
     margin: 0 auto; /* Center the image horizontally */
-	border: solid white 10px;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 
@@ -1859,8 +1862,8 @@ input, select, textarea {
 }
 
 #card-title{
-    font-size: 1.6em;
-    line-height: 130%;
+    font-size: 1.55em;
+    line-height: 140%;
 
 }
 
@@ -1887,7 +1890,7 @@ input, select, textarea {
     text-decoration: none;
 }
 
-/*WORK-PACKAGES CARDS*/
+/*---WORK-PACKAGES CARDS---*/
 
 /* card container*/
 
@@ -1922,7 +1925,7 @@ input, select, textarea {
     display: block; /* Ensure the image is a block */
     margin: 0 auto; /* Center the image horizontally */
 	border: solid white 10px;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 
@@ -1963,7 +1966,7 @@ input, select, textarea {
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     text-align: center; /* Align the content of the container */
-    min-width: 9%; /* Occupy the full width of the card */
+    min-width: 32%; /* Occupy the full width of the card */
 }
 
 .wp-card button {
@@ -2776,36 +2779,6 @@ input, select, textarea {
 						margin-right: 0.5em;
 						top: 0.05em;
 					}
-
-		/* Box */
-
-			.box {
-				padding: 15px 15px 15px 15px;
-				margin: 0;
-			}
-
-				.box.feature {
-					margin: 20px 0 0 0 !important;
-					padding: 0;
-				}
-
-					.box.feature .inner {
-						padding: 30px 15px 30px 15px;
-					}
-
-					.box.feature p {
-						margin: 0;
-					}
-
-					.box.feature .image {
-						position: relative;
-						margin: 0;
-					}
-
-						.box.feature .image img {
-							border-bottom-left-radius: 0;
-							border-bottom-right-radius: 0;
-						}
 
 		/* Widgets */
 
