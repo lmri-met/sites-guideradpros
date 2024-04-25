@@ -193,6 +193,10 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+	p {
+		line-height: 1.9em;
+	}
+
 /* Container */
 
 	.container {
@@ -1806,40 +1810,220 @@ input, select, textarea {
 		}
 		}
 
-/* Box */
+/* Cards */
 
-	.box {
-		background: #fff;
-		border-radius: 6px;
-		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
-		padding: 2em;
+/*---NORMAL CARDS---*/
+
+/* card container*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Minimum width of 300px, with automatic adjustment */
+    gap: 20px; /* Space between cards */
+}
+
+/* cards*/ 
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    overflow: hidden; /* To prevent content overflow */
+    display: flex; /* Using flexbox to vertically align content */
+    flex-direction: column; /* Aligning content in a column */
+	margin-top: 10px;
+	border-radius: 30px;
+}
+
+.card .icon-container {
+    text-align: center; /* Center content */
+    margin-top: 20px; /* Top spacing */
+}
+
+.card img {
+	max-width: 100%;
+    max-height: 300px; /* Adjust height automatically */
+    display: block; /* Ensure the image is a block */
+    margin: 0 auto; /* Center the image horizontally */
+	border-radius: 10px;
+}
+
+
+.card .inner {
+    padding: 20px;
+    flex-grow: 1; /* Allow internal content to grow to occupy available space */
+}
+
+.card header {
+    text-align: center; /* Center header */
+    margin-bottom: 10px;
+	margin-top: -10px;
+}
+
+#card-title{
+    font-size: 1.55em;
+    line-height: 140%;
+
+}
+
+#card-date {
+	margin-top: -3px;
+}
+
+#card-content {
+    font-size: 0.9em;
+    line-height: 2em;
+	margin-top: 20px;
+    margin-bottom: 10px;
+	text-align: center;
+}
+
+.card a {
+    color: #0c5cd3f3; /* Link color */
+    text-decoration: none;
+	font-style: oblique;
+	font-weight: 550;
+}
+
+.card a:hover {
+    text-decoration: none;
+}
+
+/*---WORK-PACKAGES CARDS---*/
+
+/* card container*/
+
+.wp-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Minimum width of 300px, with automatic adjustment */
+    gap: 20px; /* Space between cards */
+}
+
+
+.wp-card {
+	position: relative;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    overflow: hidden; /* To prevent content overflow */
+    display: flex; /* Using flexbox to vertically align content */
+    flex-direction: column; /* Aligning content in a column */
+	margin-top: 8px;
+	border-radius: 30px;
+}
+
+.wp-card .icon-container {
+    text-align: center; /* Center content */
+    margin-top: 20px; /* Top spacing */
+}
+
+.wp-card img {
+	max-width: 100%;
+    max-height: 300px; /* Adjust height automatically */
+    display: block; /* Ensure the image is a block */
+    margin: 0 auto; /* Center the image horizontally */
+	border: solid white 10px;
+	border-radius: 10px;
+}
+
+
+.wp-card .inner {
+    padding: 20px;
+    flex-grow: 1; /* Allow internal content to grow to occupy available space */
+}
+
+.wp-card header {
+    text-align: center; /* Center header */
+    margin-bottom: 10px;
+	margin-top: -10px;
+}
+
+.wp-card .title {
+	font-size: 25px;
+}
+
+.wp-card .text {
+    text-align: center;
+	line-height: 2em;
+	margin-bottom: 40px;
+}
+.wp-card a {
+    color: #0c5cd3f3; /* Link color */
+    text-decoration: none;
+	font-style: oblique;
+	font-weight: 550;
+}
+
+.wp-card a:hover {
+    text-decoration: none;
+}
+
+.wp-card .button-container {
+    position: absolute; /* Allow absolute positioning within the card */
+    bottom: 10px; /* Adjust this property as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    text-align: center; /* Align the content of the container */
+    min-width: 32%; /* Occupy the full width of the card */
+}
+
+.wp-card button {
+    padding-left: 20px;
+    font-size: 0.8em; /* Reduce font size */
+    border-radius: 5px;
+    background-color: #0c5cd3f3; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Responsive styles */
+
+@media screen and (max-width:700px){
+
+	.wp-card {
+		grid-column: span 2;
 	}
+}
 
-		.box.feature {
-			padding: 0;
-		}
+/* Specific adjustment to prevent WP 4 from shifting */
+@media screen and (min-width: 700px) and (max-width: 1681px) {
+    /* Cards 1 and 2 in the first row */
+	.wp-card:nth-child(1),
+	.wp-card:nth-child(2) {
+		grid-column: span 1; /* Occupy one column */
+		grid-row: 1; /* First row */
+	}
+    /* Cards 3 and 4 in the second row */
+	.wp-card:nth-child(3),
+	.wp-card:nth-child(4) {
+		grid-column: span 1; /* Occupy one column */
+		grid-row: 2; /* Second row */
+	}
+    /* Cards 5 and 6 in separate rows */
+    .wp-card:nth-child(5) {
+        grid-column: span 2; /* Occupy two columns */
+        grid-row: 3; /* Third row */
+    }
+    .wp-card:nth-child(6) {
+        grid-column: span 2; /* Occupy two columns */
+        grid-row: 4; /* Fourth row */
+    }
+}
 
-			.box.feature .inner {
-				padding: 4em 2em 3em 2em;
-			}
-
-			.box.feature h2 {
-				font-size: 1.35em;
-			}
-
-			.box.feature p {
-				margin: 0;
-			}
-
-			.box.feature .image {
-				position: relative;
-				margin: 0;
-			}
-
-				.box.feature .image img {
-					border-bottom-left-radius: 0;
-					border-bottom-right-radius: 0;
-				}
+@media screen and (max-width: 2281px) {
+    
+    /* Cards 5 and 6 in separate rows */
+    .wp-card:nth-child(5),
+	.wp-card:nth-child(6){
+        grid-column: span 2; /* Occupy two columns */
+    }
+}
 
 /* Icons */
 
@@ -2595,36 +2779,6 @@ input, select, textarea {
 						margin-right: 0.5em;
 						top: 0.05em;
 					}
-
-		/* Box */
-
-			.box {
-				padding: 15px 15px 15px 15px;
-				margin: 0;
-			}
-
-				.box.feature {
-					margin: 20px 0 0 0 !important;
-					padding: 0;
-				}
-
-					.box.feature .inner {
-						padding: 30px 15px 30px 15px;
-					}
-
-					.box.feature p {
-						margin: 0;
-					}
-
-					.box.feature .image {
-						position: relative;
-						margin: 0;
-					}
-
-						.box.feature .image img {
-							border-bottom-left-radius: 0;
-							border-bottom-right-radius: 0;
-						}
 
 		/* Widgets */
 
