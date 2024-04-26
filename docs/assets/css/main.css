@@ -239,12 +239,14 @@ input, select, textarea {
 
 /* Row */
 
-	.row {
-		display: flex;
-		flex-wrap: wrap;
-		box-sizing: border-box;
-		align-items: stretch;
-	}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center; /* Aligns the items vertically */
+    justify-content: space-between; /* Space between the items inside the row */
+    position: relative;
+}
 
 		.row > * {
 			box-sizing: border-box;
@@ -1408,7 +1410,7 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: -20px;
+					margin-top: 5px;
 					margin-left: -20px;
 				}
 
@@ -1637,9 +1639,8 @@ input, select, textarea {
 		-ms-transition: background-color .25s ease-in-out;
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
-		position: relative;
 		display: inline-block;
-		background: #0090c5;
+		background: #0c5cd3f3;
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -2016,7 +2017,7 @@ input, select, textarea {
     }
 }
 
-@media screen and (max-width: 2281px) {
+@media screen and (max-width: 3000px) {
     
     /* Cards 5 and 6 in separate rows */
     .wp-card:nth-child(5),
@@ -2459,6 +2460,7 @@ input, select, textarea {
 					button.icon:before,
 					.button.icon:before {
 						margin-right: 0.5em;
+						margin-left: 0.5em;
 						top: 0.05em;
 					}
 
@@ -2722,6 +2724,10 @@ input, select, textarea {
 					margin-bottom: 0 !important;
 				}
 
+			#section-title {
+				font-size: 1.8em; /* Tamaño de fuente aumentado */
+			}
+
 		/* Image */
 
 			.image.left {
@@ -2777,7 +2783,17 @@ input, select, textarea {
 					button.icon:before,
 					.button.icon:before {
 						margin-right: 0.5em;
-						top: 0.05em;
+						
+						margin-left: 1em;
+					}
+
+					.button .text-hide {
+						position: absolute;
+						height: 1px;
+						width: 1px;
+						padding: 0;
+						border: 0;
+						margin-left: 50px;
 					}
 
 		/* Widgets */
