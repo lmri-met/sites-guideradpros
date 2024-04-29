@@ -2444,7 +2444,7 @@ input, select, textarea {
 				text-align: center;
 				font-size: 1.35em;
 				padding: 0.85em 0 !important;
-				margin-top: 13px;
+				margin-top: -8px;
 			}
 
 				input[type="button"].icon,
@@ -2770,7 +2770,7 @@ input, select, textarea {
 				font-size: 1.25em !important;
 				padding: 0.65em 0 !important;
 				border-radius: 70px;
-				margin-top: 10px;
+				margin-top: -8px;
 			}
 
 				input[type="button"].icon,
