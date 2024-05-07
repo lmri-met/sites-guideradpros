@@ -2515,7 +2515,6 @@ input, select, textarea {
 		/* Content */
 
 			#content {
-				border-bottom: solid 1px #e8e8e8;
 				padding-bottom: 4em;
 				margin-bottom: 0 !important;
 			}
@@ -2523,6 +2522,10 @@ input, select, textarea {
 				#content > :last-child {
 					margin-bottom: 0 !important;
 				}
+
+			#sidebar {
+				margin-top: -80px;
+			}
 
 			#sidebar > :last-child {
 				margin-bottom: 0 !important;
