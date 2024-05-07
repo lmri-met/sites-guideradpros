@@ -2444,7 +2444,7 @@ input, select, textarea {
 				text-align: center;
 				font-size: 1.35em;
 				padding: 0.85em 0 !important;
-				margin-top: 13px;
+				margin-top: -8px;
 			}
 
 				input[type="button"].icon,
@@ -2515,7 +2515,6 @@ input, select, textarea {
 		/* Content */
 
 			#content {
-				border-bottom: solid 1px #e8e8e8;
 				padding-bottom: 4em;
 				margin-bottom: 0 !important;
 			}
@@ -2523,6 +2522,10 @@ input, select, textarea {
 				#content > :last-child {
 					margin-bottom: 0 !important;
 				}
+
+			#sidebar {
+				margin-top: -80px;
+			}
 
 			#sidebar > :last-child {
 				margin-bottom: 0 !important;
@@ -2770,7 +2773,7 @@ input, select, textarea {
 				font-size: 1.25em !important;
 				padding: 0.65em 0 !important;
 				border-radius: 70px;
-				margin-top: 10px;
+				margin-top: -8px;
 			}
 
 				input[type="button"].icon,
