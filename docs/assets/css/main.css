@@ -2373,7 +2373,6 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
-
 	}
 
 /* Medium */
@@ -2410,6 +2409,11 @@ input, select, textarea {
 			.image.left {
 				width: 25%;
 				margin-bottom: 2em !important;
+			}
+
+			.image.fit {
+				display: block;
+				width: 55%;
 			}
 
 		/* Menu */
@@ -2876,6 +2880,13 @@ input, select, textarea {
 					margin: 0 0 1em 0;
 				}
 
+		/* Image */
+
+		.image.fit {
+			display: block;
+			width: 65%;
+		}
+
 		/* Content */
 
 			#content {
@@ -2895,3 +2906,17 @@ input, select, textarea {
 			}
 
 	}
+	
+	/* Extra-Small */
+     
+	@media screen and (max-width: 500px) {
+
+		/* Image */
+		.image.fit {
+			display: block;
+			width: 85%;
+		}
+		
+	}
+
+	
