@@ -25,6 +25,7 @@
             display: flex;
             flex-direction: column;
             gap: 20px; /* Gap between the boxes */
+            margin-top: 20px;
         }
 
         .custom-box {
@@ -51,22 +52,53 @@
             flex: 10;
         }
 
-        table {
-            border-collapse: collapse;
-            width: 100%;
+        .deliverable-id{
+            color:rgb(0, 2, 5);
         }
 
-        td {
-            border: none;
-            padding: 10px;
-            {#white-space: pre-line;}/* Allow multiline text */
+        .deliverable-text {
+            font-size: 13pt;
+		    color: #696969;
+            font-weight: 100;
         }
 
-        td:first-child {
-            font-weight: bold;
-            white-space: nowrap;
-            width: auto; /* Fit width to content */
+    /* Responsive behaviour */
+    @media screen and (max-width: 734px) {
+     
+        .custom-container {
+            padding: 15px !important;
         }
+    /* Eliminar el display de flex para cambiar a bloque */
+    .custom-columns {
+        display: block; 
+    }
+
+    /* Alinear imagen y título en el centro */
+    .custom-col-2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Establecer ancho máximo para la imagen */
+    .custom-col-2 img {
+        width: 120px; /* Puedes ajustar este valor según tus necesidades */
+    }
+
+    .custom-col-2 h3 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+
+    /* Alinear deliverable-id y deliverable-text en el centro */
+    .custom-col-10 {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+
     </style>
 </head>
 <body class="is-preload homepage">
@@ -135,6 +167,7 @@
 <div class="container">
     <div class="custom-container">
 
+
         <!-- Work package 1 -->
         <div class="custom-box">
             <div class="custom-columns">
@@ -146,26 +179,18 @@
                 </div>
                 <!-- Second column -->
                 <div class="custom-col-10">
-                    <!-- Table -->
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td><strong>D1 (M30)</strong></td>
-                            <td>Summary report on developing a harmonised approach to X-ray spectrometry in accordance
+                            <h4 class="deliverable-id">D1 (M30)</h4>
+                            <h6 class="deliverable-text"> Summary report on developing a harmonised approach to X-ray spectrometry in accordance
                                 with the ISO 4037 standard series. This includes evaluating the discrepancies between
                                 measured and calculated half value layer (HVL) of X-ray spectra to produced data to
                                 update requirements for X-ray fields
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>D2 (M36)</strong></td>
-                            <td>Good practice guide on reference field spectrometry and attributed uncertainty</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                            </h6>
+                            <h4 class="deliverable-id">D2 (M36)</h4>
+                            <h6 class="deliverable-text">Good practice guide on reference field spectrometry and attributed uncertainty</h6>
                 </div>
             </div>
         </div>
+
 
         <!-- Work package 2 -->
         <div class="custom-box">
@@ -178,27 +203,19 @@
                 </div>
                 <!-- Second column -->
                 <div class="custom-col-10">
-                    <!-- Table -->
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td><strong>D3 (M33)</strong></td>
-                            <td>Report on training course for calibration of dosimeters, including cost effective
+                            <h4 class="deliverable-id">D3 (M33)</h4>
+                            <h6 class="deliverable-text">Report on training course for calibration of dosimeters, including cost effective
                                 procedures and guidance, with respect to actual quantities according to the ISO 4037
                                 standard series and ICRU Report 95 quantities
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>D4 (M36)</strong></td>
-                            <td>Open access e-learning resources for calibration of the dosimeters according to the ISO
+                            </h6>
+                            <h4 class="deliverable-id">D4 (M36)</h4>
+                            <h6 class="deliverable-text">Open access e-learning resources for calibration of the dosimeters according to the ISO
                                 4037 standard series
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                            </h6>
                 </div>
             </div>
         </div>
+
 
         <!-- Work package 3 -->
         <div class="custom-box">
@@ -211,28 +228,20 @@
                 </div>
                 <!-- Second column -->
                 <div class="custom-col-10">
-                    <!-- Table -->
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td><strong>D5 (M24)</strong></td>
-                            <td>Report on the current state of the art and overview of commonly used radiation
+                            <h4 class="deliverable-id">D5 (M24)</h4>
+                            <h6 class="deliverable-text">Report on the current state of the art and overview of commonly used radiation
                                 protection dosimeters and their capabilities
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>D6 (M36)</strong></td>
-                            <td>Guidelines on validated procedures for harmonised type testing based on existing IEC
+                            </h6>
+                            <h4 class="deliverable-id">D6 (M36)</h4>
+                            <h6 class="deliverable-text">Guidelines on validated procedures for harmonised type testing based on existing IEC
                                 standards (e.g., IEC 61526, IEC 60846-1, IEC 60846-2, IEC 61017, IEC 60532, and IEC
                                 62387) including a report on where requirements in existing standards deviate and
                                 standardisation gaps exist for radiation protection dosimeters for photon radiation
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                            </h6>
                 </div>
             </div>
         </div>
+
 
         <!-- Work package 4 -->
         <div class="custom-box">
@@ -245,28 +254,20 @@
                 </div>
                 <!-- Second column -->
                 <div class="custom-col-10">
-                    <!-- Table -->
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td><strong>D7 (M26)</strong></td>
-                            <td>Report on assessing the future standardisation needs related to new and upcoming
+                            <h4 class="deliverable-id">D7 (M26)</h4>
+                            <h6 class="deliverable-text">Report on assessing the future standardisation needs related to new and upcoming
                                 technologies
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>D8 (M30)</strong></td>
-                            <td>Guidelines on the implementation of new operational quantities of ICRU 95 into standards
+                            </h6>
+                            <h4 class="deliverable-id">D8 (M30)</h4>
+                            <h6 class="deliverable-text">Guidelines on the implementation of new operational quantities of ICRU 95 into standards
                                 and regulations and recommendations for incorporation of this information into future
                                 standards
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                            </h6>
                 </div>
             </div>
         </div>
 
+        
         <!-- No Work package -->
         <div class="custom-box">
             <div class="custom-columns">
@@ -278,22 +279,13 @@
                 </div>
                 <!-- Second column -->
                 <div class="custom-col-10">
-                    <!-- Table -->
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td><strong>D9 (M36)</strong></td>
-                            <td>Evidence of contributions to new or improved standards with a specific focus on the
+                            <h4 class="deliverable-id">D9 (M36)</h4>
+                            <h6 class="deliverable-text">Evidence of contributions to new or improved standards with a specific focus on the
                                 following guides and committees: ISO TC85, IEC TC45. Examples of early uptake of project
                                 outputs by end-users. Updated dissemination, communication and exploitation plan.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>D10 (M26)</strong></td>
-                            <td>Delivery of all technical and financial reporting documents as required by EURAMET.</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                            </h6>
+                            <h4 class="deliverable-id">D10 (M26)</h4>
+                            <h6 class="deliverable-text">Delivery of all technical and financial reporting documents as required by EURAMET.</h6>
                 </div>
             </div>
         </div>

@@ -25,6 +25,7 @@
             display: flex;
             flex-direction: column;
             gap: 20px; /* Gap between the boxes */
+            margin-top: 20px;
         }
 
         .custom-box {
@@ -51,22 +52,53 @@
             flex: 10;
         }
 
-        table {
-            border-collapse: collapse;
-            width: 100%;
+        .deliverable-id{
+            color:rgb(0, 2, 5);
         }
 
-        td {
-            border: none;
-            padding: 10px;
-            {#white-space: pre-line;}/* Allow multiline text */
+        .deliverable-text {
+            font-size: 13pt;
+		    color: #696969;
+            font-weight: 100;
         }
 
-        td:first-child {
-            font-weight: bold;
-            white-space: nowrap;
-            width: auto; /* Fit width to content */
+    /* Responsive behaviour */
+    @media screen and (max-width: 734px) {
+     
+        .custom-container {
+            padding: 15px !important;
         }
+    /* Eliminar el display de flex para cambiar a bloque */
+    .custom-columns {
+        display: block; 
+    }
+
+    /* Alinear imagen y título en el centro */
+    .custom-col-2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Establecer ancho máximo para la imagen */
+    .custom-col-2 img {
+        width: 120px; /* Puedes ajustar este valor según tus necesidades */
+    }
+
+    .custom-col-2 h3 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+
+    /* Alinear deliverable-id y deliverable-text en el centro */
+    .custom-col-10 {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+
     </style>
 </head>
 <body class="is-preload homepage">
