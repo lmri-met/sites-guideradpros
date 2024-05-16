@@ -11,77 +11,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
     <style>
-        /* CSS styles for the page */
-        /* Container to center the image */
-        .icon-container {
-            display: flex; /* Use flexbox */
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-            text-align: center;
-        }
+/* CSS styles for the page */
+/* Container to center the image */
+.icon-container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+}
 
-        /* Style elements for Deliverables */
-        .custom-container {
-            display: flex;
-            flex-direction: column;
-            gap: 20px; /* Gap between the boxes */
-            margin-top: 20px;
-        }
+/* Style elements for Deliverables */
+.custom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Gap between the boxes */
+    margin-top: 20px;
+}
 
-        .custom-box {
-            width: 100%;
-            background-color: #fff; /* White background */
-            border-radius: 10px; /* Rounded corners */
-            display: flex;
-            align-items: center;
-            padding: 20px;
-            box-sizing: border-box;
-        }
+.custom-box {
+    width: 100%;
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
-        .custom-columns {
-            display: flex;
-            gap: 10px; /* Gap between the columns */
-        }
+.custom-columns {
+    display: flex;
+    gap: 10px; /* Gap between the columns */
+}
 
-        .custom-col-2 {
-            flex: 2;
-            text-align: center;
-        }
+.custom-col-2 {
+    flex: 2;
+    text-align: center;
+}
 
-        .custom-col-10 {
-            flex: 10;
-        }
+.custom-col-10 {
+    flex: 10;
+}
 
-        .deliverable-id{
-            color:rgb(0, 2, 5);
-        }
+.deliverable-id {
+    color: rgb(124, 125, 126);
+    font-weight: bold;
+}
 
-        .deliverable-text {
-            font-size: 13pt;
-		    color: #696969;
-            font-weight: 100;
-        }
+.deliverable-text {
+    font-size: 13pt;
+    color: #696969;
+    font-weight: 100;
+}
 
-    /* Responsive behaviour */
-    @media screen and (max-width: 734px) {
-     
-        .custom-container {
-            padding: 15px !important;
-        }
-    /* Eliminar el display de flex para cambiar a bloque */
+/* Responsive behaviour */
+@media screen and (max-width: 734px) {
+
+    .custom-container {
+        padding: 15px !important;
+    }
+    
+    /* Remove flex display to switch to block */
     .custom-columns {
-        display: block; 
+        display: block;
     }
 
-    /* Alinear imagen y título en el centro */
+    /* Center align image and title */
     .custom-col-2 {
         margin: 0 auto;
         text-align: center;
     }
 
-    /* Establecer ancho máximo para la imagen */
+    /* Set maximum width for the image */
     .custom-col-2 img {
-        width: 120px; /* Puedes ajustar este valor según tus necesidades */
+        width: 120px; /* You can adjust this value as needed */
     }
 
     .custom-col-2 h3 {
@@ -89,15 +91,26 @@
         margin-top: 10px;
     }
 
-
-    /* Alinear deliverable-id y deliverable-text en el centro */
+    /* Center align deliverable-id and deliverable-text */
     .custom-col-10 {
         margin: 0 auto;
         text-align: center;
     }
+
+    .custom-col-10 hr {
+        display: none;
+    }
+
+    /* Ensure deliverable-id is on top of deliverable-text */
+    .deliverable-id {
+        display: block;
+        margin-bottom: 10px; /* Space between id and text */
+    }
+
+    .deliverable-text {
+        display: block;
+    }
 }
-
-
 
     </style>
 </head>
@@ -179,14 +192,14 @@
                 </div>
                 <!-- Second column -->
                 <div class="custom-col-10">
-                            <h4 class="deliverable-id">D1 (M30)</h4>
-                            <h6 class="deliverable-text"> Summary report on developing a harmonised approach to X-ray spectrometry in accordance
+                            
+                            <h6 class="deliverable-text"> <span class="deliverable-id">D1 (M30) :</span> Summary report on developing a harmonised approach to X-ray spectrometry in accordance
                                 with the ISO 4037 standard series. This includes evaluating the discrepancies between
                                 measured and calculated half value layer (HVL) of X-ray spectra to produced data to
                                 update requirements for X-ray fields
                             </h6>
-                            <h4 class="deliverable-id">D2 (M36)</h4>
-                            <h6 class="deliverable-text">Good practice guide on reference field spectrometry and attributed uncertainty</h6>
+                            <hr>
+                            <h6 class="deliverable-text"> <span class="deliverable-id">D2 (M36) :</span> Good practice guide on reference field spectrometry and attributed uncertainty</h6>
                 </div>
             </div>
         </div>
@@ -203,13 +216,13 @@
                 </div>
                 <!-- Second column -->
                 <div class="custom-col-10">
-                            <h4 class="deliverable-id">D3 (M33)</h4>
-                            <h6 class="deliverable-text">Report on training course for calibration of dosimeters, including cost effective
+                            
+                            <h6 class="deliverable-text"> <span class="deliverable-id">D3 (M33) :</span> Report on training course for calibration of dosimeters, including cost effective
                                 procedures and guidance, with respect to actual quantities according to the ISO 4037
                                 standard series and ICRU Report 95 quantities
                             </h6>
-                            <h4 class="deliverable-id">D4 (M36)</h4>
-                            <h6 class="deliverable-text">Open access e-learning resources for calibration of the dosimeters according to the ISO
+                            <hr>
+                            <h6 class="deliverable-text"> <span class="deliverable-id">D4 (M36) :</span> Open access e-learning resources for calibration of the dosimeters according to the ISO
                                 4037 standard series
                             </h6>
                 </div>
@@ -228,12 +241,12 @@
                 </div>
                 <!-- Second column -->
                 <div class="custom-col-10">
-                            <h4 class="deliverable-id">D5 (M24)</h4>
-                            <h6 class="deliverable-text">Report on the current state of the art and overview of commonly used radiation
+                         
+                            <h6 class="deliverable-text"> <span class="deliverable-id">D5 (M24) :</span> Report on the current state of the art and overview of commonly used radiation
                                 protection dosimeters and their capabilities
                             </h6>
-                            <h4 class="deliverable-id">D6 (M36)</h4>
-                            <h6 class="deliverable-text">Guidelines on validated procedures for harmonised type testing based on existing IEC
+                            <hr>
+                            <h6 class="deliverable-text"> <span class="deliverable-id">D6 (M36) :</span> Guidelines on validated procedures for harmonised type testing based on existing IEC
                                 standards (e.g., IEC 61526, IEC 60846-1, IEC 60846-2, IEC 61017, IEC 60532, and IEC
                                 62387) including a report on where requirements in existing standards deviate and
                                 standardisation gaps exist for radiation protection dosimeters for photon radiation
@@ -254,12 +267,12 @@
                 </div>
                 <!-- Second column -->
                 <div class="custom-col-10">
-                            <h4 class="deliverable-id">D7 (M26)</h4>
-                            <h6 class="deliverable-text">Report on assessing the future standardisation needs related to new and upcoming
+
+                            <h6 class="deliverable-text"> <span class="deliverable-id">D7 (M26) :</span> Report on assessing the future standardisation needs related to new and upcoming
                                 technologies
                             </h6>
-                            <h4 class="deliverable-id">D8 (M30)</h4>
-                            <h6 class="deliverable-text">Guidelines on the implementation of new operational quantities of ICRU 95 into standards
+                            <hr>
+                            <h6 class="deliverable-text"> <span class="deliverable-id">D8 (M30) :</span> Guidelines on the implementation of new operational quantities of ICRU 95 into standards
                                 and regulations and recommendations for incorporation of this information into future
                                 standards
                             </h6>
@@ -279,13 +292,12 @@
                 </div>
                 <!-- Second column -->
                 <div class="custom-col-10">
-                            <h4 class="deliverable-id">D9 (M36)</h4>
-                            <h6 class="deliverable-text">Evidence of contributions to new or improved standards with a specific focus on the
+                            <h6 class="deliverable-text"> <span class="deliverable-id">D9 (M36) :</span> Evidence of contributions to new or improved standards with a specific focus on the
                                 following guides and committees: ISO TC85, IEC TC45. Examples of early uptake of project
                                 outputs by end-users. Updated dissemination, communication and exploitation plan.
                             </h6>
-                            <h4 class="deliverable-id">D10 (M26)</h4>
-                            <h6 class="deliverable-text">Delivery of all technical and financial reporting documents as required by EURAMET.</h6>
+                            <hr>
+                            <h6 class="deliverable-text"> <span class="deliverable-id">D10 (M26) :</span> Delivery of all technical and financial reporting documents as required by EURAMET.</h6>
                 </div>
             </div>
         </div>
