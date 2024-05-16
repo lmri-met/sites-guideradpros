@@ -11,62 +11,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
     <style>
-        /* CSS styles for the page */
-        /* Container to center the image */
-        .icon-container {
-            display: flex; /* Use flexbox */
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-            text-align: center;
-        }
+/* CSS styles for the page */
+/* Container to center the image */
+.icon-container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+}
 
-        /* Style elements for Deliverables */
-        .custom-container {
-            display: flex;
-            flex-direction: column;
-            gap: 20px; /* Gap between the boxes */
-        }
+/* Style elements for Deliverables */
+.custom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Gap between the boxes */
+    margin-top: 20px;
+}
 
-        .custom-box {
-            width: 100%;
-            background-color: #fff; /* White background */
-            border-radius: 10px; /* Rounded corners */
-            display: flex;
-            align-items: center;
-            padding: 20px;
-            box-sizing: border-box;
-        }
+.custom-box {
+    width: 100%;
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
-        .custom-columns {
-            display: flex;
-            gap: 10px; /* Gap between the columns */
-        }
+.custom-columns {
+    display: flex;
+    gap: 10px; /* Gap between the columns */
+}
 
-        .custom-col-2 {
-            flex: 2;
-            text-align: center;
-        }
+.custom-col-2 {
+    flex: 2;
+    text-align: center;
+}
 
-        .custom-col-10 {
-            flex: 10;
-        }
+.custom-col-10 {
+    flex: 10;
+}
 
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
+.deliverable-id {
+    color: rgb(124, 125, 126);
+    font-weight: bold;
+}
 
-        td {
-            border: none;
-            padding: 10px;
-            {#white-space: pre-line;}/* Allow multiline text */
-        }
+.deliverable-text {
+    font-size: 13pt;
+    color: #696969;
+    font-weight: 100;
+}
 
-        td:first-child {
-            font-weight: bold;
-            white-space: nowrap;
-            width: auto; /* Fit width to content */
-        }
+/* Responsive behaviour */
+@media screen and (max-width: 734px) {
+
+    .custom-container {
+        padding: 15px !important;
+    }
+    
+    /* Remove flex display to switch to block */
+    .custom-columns {
+        display: block;
+    }
+
+    /* Center align image and title */
+    .custom-col-2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Set maximum width for the image */
+    .custom-col-2 img {
+        width: 120px; /* You can adjust this value as needed */
+    }
+
+    .custom-col-2 h3 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    /* Center align deliverable-id and deliverable-text */
+    .custom-col-10 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .custom-col-10 hr {
+        display: none;
+    }
+
+    /* Ensure deliverable-id is on top of deliverable-text */
+    .deliverable-id {
+        display: block;
+        margin-bottom: 10px; /* Space between id and text */
+    }
+
+    .deliverable-text {
+        display: block;
+    }
+}
+
     </style>
 </head>
 <body class="is-preload homepage">
