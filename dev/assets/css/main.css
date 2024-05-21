@@ -1782,6 +1782,10 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+	#div-home-img {
+		margin-bottom: -10px; /* To delete the white space between project image and project overview div*/
+	}
+
 	#funders {
 		 position: absolute;
 		 top: -7px; /* Move images up */
@@ -2472,7 +2476,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 3em 0 1em 0;
+				padding: 3em 0 0.2em 0;
 				text-align: center;
 			}
 
@@ -2491,6 +2495,10 @@ input, select, textarea {
 			#logo span {
 				display: block;
 				margin: 0;
+			}
+
+			#project-logo {
+				width: 35%;
 			}
 
 		/* Nav */
@@ -2737,6 +2745,10 @@ input, select, textarea {
 				margin-left: 10px;
 			}
 
+            #project-section-title {
+				font-size: 2em; /* Increased font size  */
+				margin-left: 10px;
+			}
 		/* Image */
 
 			.image.left {
@@ -2908,6 +2920,18 @@ input, select, textarea {
 	}
 	
 	/* Extra-Small */
+
+	@media screen and (max-width: 650px) {
+		#home-project-image {
+			width: 150%; /* Width rises to 150% of the container */
+			transform: scale(1.25); /* Scales the image */
+			margin-left: 2%; /* Margin to center the image */
+		}
+
+		#project-logo {
+			width: 28%;
+		}
+	}
      
 	@media screen and (max-width: 500px) {
 
@@ -2916,7 +2940,30 @@ input, select, textarea {
 			display: block;
 			width: 85%;
 		}
-		
 	}
 
+	@media screen and (max-width: 400px) {
+
+		#home-project-image {
+			width: 150%; /* Width rises to 150% of the container */
+			transform: scale(1.7);  /* Scales the image */
+			margin-left: 27%; /* Margin to center the image */
+			margin-bottom: 50px;
+			margin-top: 25px;
+		}
+
+		#project-logo {
+			width: 25%;
+			margin-top: 5px;
+		}
+
+		#main-wrapper {
+			margin-top: -20px;
+		}
+
+		#project-section-title {
+			font-size: 2em; /* Increased font size  */
+			margin-left: 10px;
+		}
+	}
 	
