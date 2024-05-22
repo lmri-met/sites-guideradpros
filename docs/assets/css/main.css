@@ -237,6 +237,54 @@ input, select, textarea {
 
 		}
 
+		@media (min-width: 1681px) {
+			
+			#stakeholders-container {
+				margin-top: -170px;
+			}
+
+			#international-organizations-div {
+				margin-top: -27px;
+			}
+		
+			#national-organizations-div {
+				margin-top: 123px;
+			}
+
+			#project-overview-div {
+				margin-top: -150px;
+			}
+
+			#future-standar-div {
+				margin-top: -120px;
+			}
+
+			#x-ray-div {
+				margin-top: -40px;
+			}
+
+			#guidance-goal-div {
+				margin-top: -150px;
+			}
+
+			#manufacturers-target-div {
+				margin-top: -130px;
+			}
+
+			#entities-target-div {
+				margin-top: -40px;
+			}
+
+			#societal-target-div {
+				margin-top: -120px;
+			}
+            
+			#scientific-target-div {
+				margin-top: 40px;
+			}
+
+		}
+
 /* Row */
 
 .row {
@@ -1744,6 +1792,17 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
+	#stakeholders-list {
+		text-align: left;
+	}
+	#stakeholder-element {
+		text-align: left;
+		color: #0c5cd3f3; /* Link color */
+		text-decoration: none;
+		font-style: oblique;
+		font-weight: 550;
+	}
+
 /* Actions */
 
 	ul.actions {
@@ -2357,7 +2416,6 @@ input, select, textarea {
 		}
 
 /* XLarge */
-
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
