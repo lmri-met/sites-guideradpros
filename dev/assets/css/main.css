@@ -197,6 +197,21 @@ input, select, textarea {
 		line-height: 1.9em;
 	}
 
+	#stakeholders-list dd {
+		position: relative; /* Necessary to position the ::before pseudo-element correctly */
+		padding-left: 20px; /* Space on the left for the bullet point */
+	}
+	
+	#stakeholders-list dd::before {
+		content: '•'; /* Content of the pseudo-element, in this case, a bullet point */
+		position: absolute; /* Absolute positioning to correctly place the bullet point */
+		left: 0; /* Left position */
+		top: 0; /* Top position */
+		color: #0c5cd3f3; /* Color of the bullet point */
+		font-size: 1.2em; /* Size of the bullet point */
+		line-height: 1.5em; /* Line height to vertically center the bullet point */
+	}
+
 /* Container */
 
 	.container {
@@ -2982,15 +2997,38 @@ input, select, textarea {
 	/* Extra-Small */
 
 	@media screen and (max-width: 650px) {
-		#home-project-image {
-			width: 150%; /* Width rises to 150% of the container */
-			transform: scale(1.25); /* Scales the image */
-			margin-left: 2%; /* Margin to center the image */
+
+		#header-wrapper   {
+			height: 50px;
 		}
 
 		#project-logo {
-			width: 28%;
+			width: 23%;
+			transform: translateY(-40px);
 		}
+
+		#EurametLogo {
+			transform: translateY(-23px);
+		}
+
+		#UELogo {
+			transform: translateY(-23px);
+		}
+
+		#main-wrapper {
+			margin-top: -20px;
+			transform: translateY(20px);
+		}
+
+		#project-section-title {
+			font-size: 2em; /* Increased font size  */
+			margin-left: 10px;
+		}
+
+		#home-project-image {
+			width: 100%;
+		}
+
 	}
      
 	@media screen and (max-width: 500px) {
@@ -3000,30 +3038,10 @@ input, select, textarea {
 			display: block;
 			width: 85%;
 		}
-	}
 
-	@media screen and (max-width: 400px) {
-
-		#home-project-image {
-			width: 150%; /* Width rises to 150% of the container */
-			transform: scale(1.7);  /* Scales the image */
-			margin-left: 27%; /* Margin to center the image */
-			margin-bottom: 50px;
-			margin-top: 25px;
-		}
-
-		#project-logo {
-			width: 25%;
-			margin-top: 5px;
-		}
-
-		#main-wrapper {
-			margin-top: -20px;
-		}
-
-		#project-section-title {
-			font-size: 2em; /* Increased font size  */
-			margin-left: 10px;
+		#div-home-img {
+			width: 120%;
+			left: 20px;
 		}
 	}
-	
+
