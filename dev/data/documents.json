@@ -1,0 +1,17 @@
+[
+    {
+        "imageUrl": "images/icons/document.png",
+        "documentUrl": "files/documents/22NRM07 Publishable Summary M9_v2.pdf",
+        "title": "GuideRadPROS Publishable summary"
+    },
+    {
+        "imageUrl": "images/icons/flyer.png",
+        "documentUrl": "files/documents/GuideRadPROS_Flyer_18092023.pdf",
+        "title": "GuideRadPROS Flyer"
+    },
+    {
+        "imageUrl": "images/icons/poster.png",
+        "documentUrl": "files/documents/GuideRadPROS_Poster_18092023.pdf",
+        "title": "GuideRadPROS Poster"
+    }
+]
