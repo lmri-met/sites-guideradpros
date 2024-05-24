@@ -27,7 +27,7 @@
 
 <script>
     // JavaScript to load JSON and generate cards
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", () => {
         fetch('data/documents.json')
             .then(response => response.json())
             .then(data => {
