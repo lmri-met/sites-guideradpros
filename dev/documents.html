@@ -187,35 +187,8 @@
     </div>
 </div>
 
-
-<script>
-    // JavaScript to load JSON and generate cards
-    document.addEventListener("DOMContentLoaded", () => {
-        fetch('data/documents.json')
-            .then(response => response.json())
-            .then(data => {
-                const container = document.getElementById('documents-container');
-                data.forEach(doc => {
-                    const card = document.createElement('div');
-                    card.className = 'card';
-                    card.innerHTML = `
-                        <section>
-                            <div class="icon-container">
-                                <a href="${doc.documentUrl}"><img src="${doc.imageUrl}" alt="" width="40%" style="padding-top: 25px;"/></a>
-                            </div>
-                            <div class="inner">
-                                <header>
-                                    <h2 id="card-title">${doc.title}</h2>
-                                </header>
-                            </div>
-                        </section>
-                    `;
-                    container.appendChild(card);
-                });
-            })
-            .catch(error => console.error('Error loading JSON:', error));
-    });
-    </script>
+<!-- Documents load script -->
+<script src="assets/js/generateDocuments.js"></script>
 
     <!-- Back to top -->
     <div style="text-align: center; padding: 50px">

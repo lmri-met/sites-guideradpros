@@ -2,19 +2,20 @@
     {
         "imageUrl": "images/icons/document.png",
         "documentUrl": "files/documents/22NRM07 Publishable Summary M9_v2.pdf",
-        "title": "GuideRadPROS Publishable summary"
+        "title": "GuideRadPROS Publishable summary",
+        "uploadDate": "2023-09-19"
     },
-
     {
         "imageUrl": "images/icons/flyer.png",
         "documentUrl": "files/documents/GuideRadPROS_Flyer_18092023.pdf",
-        "title": "GuideRadPROS Flyer"
+        "title": "GuideRadPROS Flyer",
+        "uploadDate": "2023-09-18"
     },
-
     {
         "imageUrl": "images/icons/poster.png",
         "documentUrl": "files/documents/GuideRadPROS_Poster_18092023.pdf",
-        "title": "GuideRadPROS Poster"
+        "title": "GuideRadPROS Poster",
+        "uploadDate": "2023-09-17"
     }
 ]
 
