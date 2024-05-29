@@ -10,10 +10,17 @@ document.addEventListener('DOMContentLoaded', function () {
             data.forEach(event => {
                 const card = document.createElement('div');
                 card.className = 'card';
+                var txt;
+                    //to adjust the size of the image in the card depending on the type (icon or photo)
+                    if (event.imageType === "icon") {
+                        txt = `<img src="${event.imageUrl}" alt="" width="40%" style="padding-top: 25px;"/>`;
+                    } else if (event.imageType === "photo"){
+                        txt = `<img src="${event.imageUrl}" alt="" width="100%" style="margin-top: -20px"/>`;
+                    }
                 card.innerHTML = `
                     <section>
                         <div class="icon-container">
-                            <img src="${event.imageUrl}" alt="" id ="events-card-img"/>
+                            ${txt}
                         </div>
                         <div class="inner">
                             <header>

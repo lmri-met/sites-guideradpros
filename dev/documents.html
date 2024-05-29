@@ -187,9 +187,6 @@
     </div>
 </div>
 
-<!-- Documents load script -->
-<script src="assets/js/generateDocuments.js"></script>
-
     <!-- Back to top -->
     <div style="text-align: center; padding: 50px">
         <a href="#" class="button icon solid fa-arrow-circle-up">Back to top</a>
@@ -216,6 +213,37 @@
 </div>
 
 <!-- Scripts -->
+Documents - GuideRadPROS
+{% endblock %}
+
+{% block active %}
+    Impact
+{% endblock %}
+
+{% block content %}
+
+<!-- Page title -->
+<div id="main-wrapper" style="background: #aaaaaa; margin-bottom: 20px; height: 10px;">
+    <div class="container" id="section-title-container">
+        <h2 style="color:white; margin-top: -20px;" id="section-title">Documents</h2>
+    </div>
+</div>
+
+<!-- Documents -->
+<div id="features-wrapper">
+    <div class="container">
+        <div class="grid-container" id="documents-container">
+            <!-- Cards will be injected here by JavaScript -->
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+
+{% block script %}
+<!-- Documents load script -->
+<script src="assets/js/generateDocuments.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.dropotron.min.js"></script>
 <script src="assets/js/browser.min.js"></script>

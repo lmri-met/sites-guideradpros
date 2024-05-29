@@ -48,6 +48,7 @@ def generate_page(base_template_path, child_template_path, page_path):
     title_start = child_content.find('{% block title %}')
     title_end = child_content.find('{% endblock %}', title_start)
     title = child_content[title_start + len('{% block title %}'):title_end].strip()
+    
 
     active_start = child_content.find('{% block active %}')
     active_end = child_content.find('{% endblock %}', active_start)
@@ -57,9 +58,14 @@ def generate_page(base_template_path, child_template_path, page_path):
     content_end = child_content.find('{% endblock %}', content_start)
     content = child_content[content_start + len('{% block content %}'):content_end].strip()
 
+    script_start = child_content.find('{% block script %}')
+    script_end = child_content.find('{% endblock %}', script_start)
+    script = child_content[title_start + len('{% block script %}'):script_end].strip()
+
     # Replace {title} and {content} in base template with extracted content
     new_content = base_content.replace('{title}', title)
     new_content = new_content.replace('{content}', content)
+    new_content = new_content.replace('{script}', script)
 
     # Modify active tab in base template with extracted content
     # Split the HTML code into lines

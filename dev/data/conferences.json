@@ -1,0 +1,51 @@
+[
+    {
+        "imageUrl": "images/conferences/IRPA_logo.png",
+        "title": "IRPA 16 HPS",
+        "eventDate": "7-12 July 2024, USA",
+        "content": "<a href='files/publications/2024_IRPA_Abstract.pdf'>Contribution</a> to the 16th International Congress of the International Radiation Protection Association (<a href='http://irpa2024.com/'>IRPA 16 HPS</a>), to be held in Orlando, Florida.",
+        "uploadDate": "2024-07-07",
+        "imageType": "photo"
+
+    },
+    {
+        "imageUrl": "images/icons/congress.png",
+        "title": "CS LNE 2023",
+        "eventDate": "November 2023, France",
+        "content": "Contribution to the Annual Meeting of the French Metrology Network for ionizing radiation, held in Cadarache, France, in November 2023. An <a href='files/publications/2023_LNE_Presentation.pdf'>oral presentation</a> was given at the conference.",
+        "uploadDate": "2023-11-01",
+        "imageType": "icon"
+    },
+    {
+        "imageUrl": "images/icons/congress.png",
+        "title": "44 DRO 2023",
+        "eventDate": "6-10 November 2023, Czechia",
+        "content": "Two contributions to the 44th Radiation Protection Days annual meeting (<a href='https://indico.ujf.cas.cz/event/6/'>44 DRO</a>), held in Tábor, Czechia. An <a href='files/publications/2023_DRO_Presentation.pdf'>oral presentation</a> and a <a href='files/publications/2023_DRO_Poster.pdf'>poster</a> were presented at the conference (see the <a href='https://indico.ujf.cas.cz/event/6/attachments/62/144/dro2023-boa-scr.pdf'>Book of abstracts</a>).",
+        "uploadDate": "2023-11-06",
+        "imageType": "icon"
+    },
+    {
+        "imageUrl": "images/conferences/ICDA-4_Horizontal-1.jpg",
+        "title": "ICDA-4",
+        "eventDate": "16-20 October 2023, Spain",
+        "content": "Contribution to the 4th International Conference on Dosimetry and its Applications (<a href='https://icda-4.webs.upv.es/'>ICDA-4</a>), held in Valencia, Spain. A <a href='files/publications/2023_ICDA4_Abstract.pdf'>poster</a> was presented in the Individual Dosimetry and Monitoring section (see the <a href='https://icda-4.webs.upv.es/?page_id=74'>Book of abstracts</a>).",
+        "uploadDate": "2023-10-16",
+        "imageType": "photo"
+    },
+    {
+        "imageUrl": "images/conferences/ERPW_Logo_400x273.png",
+        "title": "ERPW 2023",
+        "eventDate": "9-13 October 2023, Ireland",
+        "content": "Contribution to the 7th European Radiation Protection Week (<a href='https://www.ucd.ie/ERPW2023/'>ERPW 2023</a>), held in Dublin, Ireland. A <a href='files/publications/2023_ERPW_Abstract.pdf'>poster</a> was presented in the Occupational Radiation Protection section (see the <a href='https://www.ucd.ie/ERPW2023/t4media/ERPW%202023%20Full%20Programme%20and%20Book%20of%20Abstracts%20Nov.pdf'>Book of abstracts</a>).",
+        "uploadDate": "2023-10-09",
+        "imageType": "photo"
+    },
+    {
+        "imageUrl": "images/conferences/old_logo-airp.png",
+        "title": "AIRP 2023",
+        "eventDate": "27-29 September 2023, Italy",
+        "content": "Contribution to the National Conference of <a href='https://www.airp-asso.it/'>AIRP</a> on Radioprotection, held in Cagliari, Italy. An <a href='files/publications/2023_AIRP_Abstract_Tikkanen.pdf'>oral presentation</a> and two posters (see them <a href='files/publications/2023_AIRP_Abstract_Toma.pdf'>here</a> and <a href='files/publications/2023_AIRP_Abstract_Rinaldi.pdf'>here</a>) were presented in the Dosimetry/Measurement Methods section (see the <a href='https://www.airp-asso.it/2023/09/13/convegno-nazionale-airp-di-radioprotezione-cagliari-27-28-e-29-settembre-2023-programma-scientifico-scheda-iscrizioni/'>Scientific Program</a>).",
+        "date": "2023-09-27",
+        "imageType": "photo"
+    }
+]

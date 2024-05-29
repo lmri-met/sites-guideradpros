@@ -14,12 +14,18 @@
                     // Create a new div element to act as a card
                     const card = document.createElement('div');
                     card.className = 'card'; // Assign the 'card' class to the div
-                    // Set the inner HTML of the card with the necessary structure and content
+                    var txt;
+                    //to adjust the size of the image in the card depending on the type (icon or photo)
+                    if (doc.imageType === "icon") {
+                        txt = `<img src="${doc.imageUrl}" alt="" width="40%" style="padding-top: 25px;"/>`;
+                    } else if (doc.imageType === "photo"){
+                        txt = `<img src="${doc.imageUrl}" alt="" width="100%" style="padding-top: 25px;"/>`;
+                    }
                     card.innerHTML = `
                         <section>
                             <div class="icon-container">
                                 <a href="${doc.documentUrl}">
-                                    <img src="${doc.imageUrl}" alt="" width="40%" style="padding-top: 25px;"/>
+                                    ${txt}
                                 </a>
                             </div>
                             <div class="inner">
