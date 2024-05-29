@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('data/conferences.json')
         .then(response => response.json())
         .then(data => {
-            data.sort((a, b) => new Date(b.date) - new Date(a.date));
+            data.sort((a, b) => new Date(b.uploadDate) - new Date(a.uploadDate));
             const container = document.getElementById('conferences-grid');
             data.forEach(conference => {
                 const card = document.createElement('div');

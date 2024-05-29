@@ -44,11 +44,10 @@ def generate_page(base_template_path, child_template_path, page_path):
     with open(child_template_path, 'r') as f:
         child_content = f.read()
 
-    # Extract title, active tab, and content from the child HTML file
+    # Extract title, active tab, content and script from the child HTML file
     title_start = child_content.find('{% block title %}')
     title_end = child_content.find('{% endblock %}', title_start)
     title = child_content[title_start + len('{% block title %}'):title_end].strip()
-    
 
     active_start = child_content.find('{% block active %}')
     active_end = child_content.find('{% endblock %}', active_start)
@@ -58,11 +57,14 @@ def generate_page(base_template_path, child_template_path, page_path):
     content_end = child_content.find('{% endblock %}', content_start)
     content = child_content[content_start + len('{% block content %}'):content_end].strip()
 
+    # Extract script block if it exists
     script_start = child_content.find('{% block script %}')
-    script_end = child_content.find('{% endblock %}', script_start)
-    script = child_content[title_start + len('{% block script %}'):script_end].strip()
+    script = ""
+    if script_start != -1:
+        script_end = child_content.find('{% endblock %}', script_start)
+        script = child_content[script_start + len('{% block script %}'):script_end].strip()
 
-    # Replace {title} and {content} in base template with extracted content
+    # Replace {title}, {content} and {script} in base template with extracted content
     new_content = base_content.replace('{title}', title)
     new_content = new_content.replace('{content}', content)
     new_content = new_content.replace('{script}', script)
