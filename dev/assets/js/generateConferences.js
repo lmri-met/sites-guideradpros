@@ -1,3 +1,4 @@
+ // JavaScript to load JSON and generate Conferences cards
 document.addEventListener('DOMContentLoaded', function () {
     fetch('data/conferences.json')
         .then(response => response.json())
