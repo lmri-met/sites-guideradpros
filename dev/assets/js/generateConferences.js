@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
                         </div>
                         <div class="inner">
                             <header>
-                                <h2>${conference.title}</h2>
-                                <p>${conference.eventDate}</p>
+                                <h2 id="card-title">${conference.title}</h2>
+                                <p id="card-date">${conference.eventDate}</p>
                             </header>
-                            <p>${conference.content}</p>
+                            <p id="card-content">${conference.content}</p>
                         </div>
                     </section>
                 `;

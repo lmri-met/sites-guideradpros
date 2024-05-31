@@ -1,4 +1,4 @@
- // JavaScript to load JSON and generate Impact section cards
+ // JavaScript to load JSON and generate Home section cards
  document.addEventListener('DOMContentLoaded', function () {
 
     // Load documents

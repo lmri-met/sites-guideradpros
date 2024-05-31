@@ -25,7 +25,7 @@
                         </div>
                         <div class="inner">
                             <header>
-                                <h2>${doc.title}</h2>
+                                <h2 id="card-title">${doc.title}</h2>
                             </header>
                         </div>
                     </section>
@@ -56,10 +56,10 @@
                         </div>
                         <div class="inner">
                             <header>
-                                <h2>${event.title}</h2>
-                                <p>${event.eventDate}</p>
+                                <h2 id="card-title">${event.title}</h2>
+                                <p id="card-date">${event.eventDate}</p>
                             </header>
-                            <p>${event.content}</p>
+                            <p id="card-content">${event.content}</p>
                         </div>
                     </section>
                 `;
@@ -90,10 +90,10 @@
                         </div>
                         <div class="inner">
                             <header>
-                                <h2>${conference.title}</h2>
-                                <p>${conference.eventDate}</p>
+                                <h2 id="card-title">${conference.title}</h2>
+                                <p id="card-date">${conference.eventDate}</p>
                             </header>
-                            <p>${conference.content}</p>
+                            <p id="card-content">${conference.content}</p>
                         </div>
                     </section>
                 `;
