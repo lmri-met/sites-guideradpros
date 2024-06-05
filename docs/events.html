@@ -172,90 +172,17 @@
 
     <!-- Main content -->
     <!-- Page title -->
-<div id="main-wrapper" style="background: #aaaaaa; margin-bottom: 20px; height: 10px;">
+ <div id="main-wrapper" style="background: #aaaaaa; margin-bottom: 20px; height: 10px;">
     <div class="container" id="section-title-container">
-        <h2 style="color:white;margin-top: -20px;" id="section-title">Events</h2>
+        <h2 style="color:white; margin-top: -20px;" id="section-title">Events</h2>
     </div>
 </div>
 
 <!-- Events -->
 <div id="features-wrapper">
     <div class="container">
-        <div class="grid-container">
-
-            <!-- Event 4 -->
-            <div class="card">
-                <section>
-                    <!-- <a href="#" class="image featured"><img src="images/placeholders/pic01.jpg" alt=""/></a> -->
-                    <div class="icon-container">
-                        <img src="images/icons/meeting.png" alt="" width="40%" style="padding-top: 25px;"/>
-                    </div>
-                    <div class="inner">
-                        <header>
-                            <h2 id="card-title">First Stakeholder Committee meeting of GuideRadPROS</h2>
-                            <p id="card-date">27th February 2024</p>
-                        </header>
-                        <p id="card-content"> The first Stakeholder Committee meeting was held in a virtual platform on the 27th February
-                            2024. The agenda of the meeting included an introduction of the project, presentations of
-                            stakeholders and a discussion with feedback for the progress of the project consortium.</p>
-                    </div>
-                </section>
-            </div>
-
-            <!-- Event 3 -->
-            <div class="card">
-                <section>
-                    <a href="#" class="image featured"><img src="images/photos/M9_technical_visit_croped.svg" alt=""/></a>
-                    <!--<div class="icon-container">
-                        <img src="images/photos/M9_technical_visit_1.jpg" alt="" width="40%" style="padding-top: 25px;"/>
-                    </div>-->
-                    <div class="inner">
-                        <header>
-                            <h2 id="card-title">GuideRadPROS technical visit</h2>
-                            <p id="card-date">9th February 2024</p>
-                        </header>
-                        <p id="card-content">Short technical visit to the x-ray laboratories of ENEA (Casaccia, Italy) in order to do
-                            spectrometry of ISO 4037 standard x-ray beam qualities.</p>
-                    </div>
-                </section>
-            </div>
-
-            <!-- Event 2 -->
-            <div class="card">
-                <section>
-                    <a href="#" class="image featured"><img src="images/photos/M9_meeting.svg" alt=""/></a>
-                    <!-- <div class="icon-container">
-                        <img src="images/photos/M9_meeting.jpg" alt="" width="40%" style="padding-top: 25px;"/>
-                    </div> -->
-                    <div class="inner">
-                        <header>
-                            <h2 id="card-title">M9 GuideRadPROS meeting</h2>
-                            <p id="card-date">7-8 February 2024</p>
-                        </header>
-                        <p id="card-content">The M9 meeting of the 22NRM07 GuideRadPROS Project was held in Italy at Ospedale Bambino Gesù
-                            (Rome).</p>
-                    </div>
-                </section>
-            </div>
-
-            <!-- Event 1 -->
-            <div class="card">
-                <section>
-                    <a href="#" class="image featured"><img src="images/photos/Kick_off_meeting.svg" alt=""/></a>
-                    <!-- <div class="icon-container">
-                        <img src="images/photos/Kick_off_meeting.png" alt="" width="40%" style="padding-top: 25px;"/>
-                    </div> -->
-                    <div class="inner">
-                        <header>
-                            <h2 id="card-title">1st kick off meeting of GuideRadPROS Consortium</h2>
-                            <p id="card-date">10-11 July 2023</p>
-                        </header>
-                        <p id="card-content">The 1st meeting of the EURAMET EMP 22NRM07 GuideRadPROS Consortium took place in Finland at
-                            STUK (Vantaa).</p>
-                    </div>
-                </section>
-            </div>
-
+        <div id="events-container" class="grid-container">
+            <!-- Event cards will be inserted here -->
         </div>
     </div>
 </div>
@@ -286,6 +213,8 @@
 </div>
 
 <!-- Scripts -->
+<!-- Events load script -->
+<script src="assets/js/generateEvents.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.dropotron.min.js"></script>
 <script src="assets/js/browser.min.js"></script>
