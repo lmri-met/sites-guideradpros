@@ -7,7 +7,7 @@
         .then(data => {
             data.sort((a, b) => new Date(b.uploadDate) - new Date(a.uploadDate));
             const container = document.getElementById('documents-grid');
-            data.slice(0, 3).forEach(doc => {
+            data.slice(0, 4).forEach(doc => {
                 const card = document.createElement('div');
                 card.className = 'card';
                  //to adjust the size of the image in the card depending on the type (icon or photo)
@@ -40,7 +40,7 @@
         .then(data => {
             data.sort((a, b) => new Date(b.uploadDate) - new Date(a.uploadDate));
             const container = document.getElementById('events-grid');
-            data.slice(0, 3).forEach(event => {
+            data.slice(0, 4).forEach(event => {
                 const card = document.createElement('div');
                 card.className = 'card';
                   //to adjust the size of the image in the card depending on the type (icon or photo)
@@ -73,7 +73,7 @@
         .then(data => {
             data.sort((a, b) => new Date(b.uploadDate) - new Date(a.uploadDate));
             const container = document.getElementById('conferences-grid');
-            data.slice(0, 3).forEach(conference => {
+            data.slice(0, 4).forEach(conference => {
                 const card = document.createElement('div');
                 card.className = 'card';
                 var txt;
