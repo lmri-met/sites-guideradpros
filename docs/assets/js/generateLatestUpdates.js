@@ -7,25 +7,32 @@ document.addEventListener('DOMContentLoaded', function() {
         fetch('data/events.json').then(response => response.json()),
         fetch('data/conferences.json').then(response => response.json())
     ]).then(([documents, events, conferences]) => {
-        // Sort each array by uploadDate descending
-        documents.sort((a, b) => new Date(b.uploadDate) - new Date(a.uploadDate));
-        events.sort((a, b) => new Date(b.uploadDate) - new Date(a.uploadDate));
-        conferences.sort((a, b) => new Date(b.uploadDate) - new Date(a.uploadDate));
+        // Add a type property to each item for identification
+        documents.forEach(item => item.type = 'document');
+        events.forEach(item => item.type = 'event');
+        conferences.forEach(item => item.type = 'conference');
 
-        // Get the most recent item from each array
-        const latestDocuments = documents[0];
-        const latestEvents = events[0];
-        const latestConferences = conferences[0];
+        // Combine the arrays
+        const allItems = [...documents, ...events, ...conferences];
 
-        // Generate HTML for each type of update
-        const documentCard = createDocumentCard(latestDocuments);
-        const eventCard = createEventCard(latestEvents);
-        const conferenceCard = createConferenceCard(latestConferences);
+        // Sort combined array by uploadDate descending
+        allItems.sort((a, b) => new Date(b.uploadDate) - new Date(a.uploadDate));
 
-        // Append the generated cards to the updates container
-        latestUpdatesContainer.appendChild(documentCard);
-        latestUpdatesContainer.appendChild(eventCard);
-        latestUpdatesContainer.appendChild(conferenceCard);
+        // Get the four most recent items
+        const latestItems = allItems.slice(0, 4);
+
+        // Generate and append HTML for each item
+        latestItems.forEach(item => {
+            let card;
+            if (item.type === 'document') {
+                card = createDocumentCard(item);
+            } else if (item.type === 'event') {
+                card = createEventCard(item);
+            } else if (item.type === 'conference') {
+                card = createConferenceCard(item);
+            }
+            latestUpdatesContainer.appendChild(card);
+        });
     }).catch(error => console.error('Error loading JSON files:', error));
 });
 
@@ -51,9 +58,9 @@ function createDocumentCard(doc) {
         <div class="inner">
             <header>
                 <h2 id="card-title">${doc.title}</h2>
-                <p id="card-date">${doc.uploadDate}</p>
+                <p id="card-date">${doc.eventDate}</p>
             </header>
-            <p id="card-content">Click on the image to access the content of the document.</p>
+            <p id="card-content">${doc.description}</p>
         </div>
     </section>
 `;
@@ -65,11 +72,12 @@ function createDocumentCard(doc) {
 function createEventCard(event) {
     const card = document.createElement('div');
     card.className = 'card';
+    var txt;
     //to adjust the size of the image in the card depending on the type (icon or photo)
     if (event.imageType === "icon") {
         txt = `<img src="${event.imageUrl}" alt="" width="40%" style="padding-top: 25px;"/>`;
     } else if (event.imageType === "photo"){
-        txt = `<img src="${event.imageUrl}" alt="" width="100%" style="padding-top: 25px;"/>`;
+        txt = `<img src="${event.imageUrl}" alt="" width="100%" style="transform: translateY(-20px);"/>`;
     }
     // Set the inner HTML of the card
     card.innerHTML = `
@@ -94,11 +102,12 @@ function createEventCard(event) {
 function createConferenceCard(conference) {
     const card = document.createElement('div');
     card.className = 'card';
+    var txt;
     //to adjust the size of the image in the card depending on the type (icon or photo)
     if (conference.imageType === "icon") {
         txt = `<img src="${conference.imageUrl}" alt="" width="40%" style="padding-top: 25px;"/>`;
     } else if (conference.imageType === "photo"){
-        txt = `<img src="${conference.imageUrl}" alt="" width="80%" style="padding-top: 25px;"/>`;
+        txt = `<img src="${conference.imageUrl}" alt="" width="100%" style="padding-top: 25px;"/>`;
     }
     // Set the inner HTML of the card
     card.innerHTML = `

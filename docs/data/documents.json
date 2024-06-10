@@ -4,21 +4,28 @@
         "documentUrl": "files/documents/22NRM07 Publishable Summary M9_v2.pdf",
         "title": "GuideRadPROS Publishable summary",
         "uploadDate": "2023-09-19",
-        "imageType": "icon"
+        "imageType": "icon",
+        "eventDate": "19th September 2023",
+        "description": "This document contains the summary of the GuideRadPROS Project."
     },
     {
         "imageUrl": "images/icons/flyer.png",
         "documentUrl": "files/documents/GuideRadPROS_Flyer_18092023.pdf",
         "title": "GuideRadPROS Flyer",
         "uploadDate": "2023-09-18",
-        "imageType": "icon"
+        "imageType": "icon",
+        "eventDate": "18th September 2023",
+        "description": "This is the flyer of the GuideRadPROS Project."
     },
     {
         "imageUrl": "images/icons/poster.png",
         "documentUrl": "files/documents/GuideRadPROS_Poster_18092023.pdf",
         "title": "GuideRadPROS Poster",
         "uploadDate": "2023-09-17",
-        "imageType": "icon"
+        "imageType": "icon",
+        "eventDate": "17th September 2023",
+        "description": "This is the poster of the GuideRadPROS Project."
     }
+
 ]
 
