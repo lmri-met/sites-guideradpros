@@ -30,5 +30,13 @@
         "content": "The 1st meeting of the EURAMET EMP 22NRM07 GuideRadPROS Consortium took place in Finland at STUK (Vantaa).",
         "uploadDate": "2023-07-10",
         "imageType": "photo"
+    },
+    {
+        "imageUrl": "images/icons/icon-webinar.png",
+        "title": "First online workshop",
+        "eventDate": "30 September - 1 October 2024",
+        "content": "The first workshop of the GuideRadPROS ProjectEURAMET will be held online and it will last 2 days. The goal of the workshop is to test the developed theoretical training material on ISO 4037:2019 and ISO 29661. See the <a href='images/First_workshop_flyer.png'>workshop flyer</a> for more information.",
+        "uploadDate": "2024-09-30",
+        "imageType": "icon"
     }
 ]
