@@ -1,10 +1,18 @@
 [
     {
+        "imageUrl": "images/conferences/Logo_RAP_24.png",
+        "title": "RAP 2024",
+        "eventDate": "10-12 June 2024, Spain",
+        "content": "Two contributions to the International Conference on Radiation Applications in Physics, Chemistry, Biology, Medical Sciences, Engineering and Environmental Sciences \n(<a href='https://www.rap-conference.org/24/index.php'>RAP 24</a>) held in Granada, Spain.\nAn <a href='files/publications/2024_RAP_Presentation.pptx'>oral presentation</a> and a <a href='files/publications/2024_RAP_Poster.pdf'>poster</a> \nwere presented at the conference (see the <a href='https://www.rap-conference.org/24/RAP_2024_Book_of_Abstracts.pdf'>Book of abstracts</a>).",
+        "uploadDate": "2024-06-10",
+        "imageType": "photo"
+    },
+    {
         "imageUrl": "images/conferences/Logo-IJCIEOM-2024-2.png",
         "title": "28th IJCIEOM",
         "eventDate": "26-28 June 2024, Brazil",
         "content": "Contribution to the 28th International Joint Conference on Industrial Engineering and Operations Management (<a href='https://ijcieom.org/2024/'>IJCIEOM 2024</a>), held in Salvador, Brazil. An oral presentation was given in the Healthcare Management section. See the <a href='http://portalabepro.educacao.ws/ijcieom/restrito/arquivos/icieom2024/FULL_0057_37886.pdf'>full paper</a> and the <a href='https://abepro.org.br/proceedings/artigo.asp?e=icieom&a=2023&c=37886'>proceeding publication</a>.",
-        "uploadDate": "2024-07-07",
+        "uploadDate": "2024-06-26",
         "imageType": "photo"
     },
     {
