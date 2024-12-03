@@ -38,5 +38,21 @@
         "content": "The first workshop of the GuideRadPROS ProjectEURAMET will be held online and it will last 2 days. The goal of the workshop is to test the developed theoretical training material on ISO 4037:2019 and ISO 29661. See the <a href='images/First_workshop_flyer.png'>workshop flyer</a> for more information. To register for the workshop, please fill out this <a href='https://bit.ly/GuideRadPROS_Workshop_Form'>registration form</a>. Check the <a href='images/First_workshop_timetable.pdf'>workshop timetable</a>. Here you can find the <a href='images/First_workshop_links.pdf'>links</a> to the workshop sessions.",
         "uploadDate": "2024-09-30",
         "imageType": "icon"
+    },
+    {
+        "imageUrl": "images/photos/M18_meeting.jpg",
+        "title": "M18 GuideRadPROS meeting",
+        "eventDate": "20-21 November 2024",
+        "content": "The M18 meeting of the 22NRM07 GuideRadPROS Project was held in Finland at STUK (Vantaa).",
+        "uploadDate": "2024-11-20",
+        "imageType": "photo"
+    },
+    {
+        "imageUrl": "images/photos/M18_technical_visit.jpg",
+        "title": "M18 GuideRadPROS technical visit",
+        "eventDate": "21st November 2024",
+        "content": "On-site technical visit to the facilities of Mirion Technologies (Turku, Finland), a company that develops and manufactures gamma dosimeters.",
+        "uploadDate": "2024-11-21",
+        "imageType": "photo"
     }
 ]
