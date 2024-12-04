@@ -1,10 +1,18 @@
 [
+        {
+        "imageUrl": "images/conferences/Logo_ERPW_24.png",
+        "title": "ERPW 2024",
+        "eventDate": "11-15 November 2024, Italy",
+        "content": "Contribution to the European Radiation Protection Week 2024 (<a href='https://www.erpw2024.eu/'>ERPW 2024</a>), held on November 11-15, 2024, in the Aurelia Auditorium Congress Center in Rome, Italy. An oral presentation titled \"<i>Implications of the realization of characterised reference radiation fields in a primary standards dosimertry laboratory</i>\" was given in the \"Planned and existing exposure of workers due to artificial radiation in normal operational condition\" (see the <a href='https://www.iss.it/documents/20126/7120568/24_C4+per+online.pdf/460cc42f-62e2-01d7-01d3-eb05ced9ae1f?t=1731073995684'>Book of abstracts</a>).",
+        "date": "2024-11-11",
+        "imageType": "photo"
+    },
     {
-        "imageUrl": "images/conferences/Logo_RAP_24.png",
-        "title": "RAP 2024",
-        "eventDate": "10-12 June 2024, Spain",
-        "content": "Two contributions to the International Conference on Radiation Applications in Physics, Chemistry, Biology, Medical Sciences, Engineering and Environmental Sciences \n(<a href='https://www.rap-conference.org/24/index.php'>RAP 24</a>) held in Granada, Spain.\nAn <a href='files/publications/2024_RAP_Presentation.pptx'>oral presentation</a> and a <a href='files/publications/2024_RAP_Poster.pdf'>poster</a> \nwere presented at the conference (see the <a href='https://www.rap-conference.org/24/RAP_2024_Book_of_Abstracts.pdf'>Book of abstracts</a>).",
-        "uploadDate": "2024-06-10",
+        "imageUrl": "images/conferences/IRPA_logo.png",
+        "title": "IRPA 16 HPS",
+        "eventDate": "7-12 July 2024, USA",
+        "content": "Contribution to the 16th International Congress of the International Radiation Protection Association (<a href='https://burkclients.com/IRPA/2024/site/welcome.html'>IRPA 16 HPS</a>), held in Orlando, Florida. A <a href='files/publications/2024_IRPA_Poster.pdf'>poster</a> was presented at the conference (see also the contribution <a href='files/publications/2024_IRPA_Abstract.pdf'>abstract</a>).",
+        "uploadDate": "2024-07-07",
         "imageType": "photo"
     },
     {
@@ -16,11 +24,19 @@
         "imageType": "photo"
     },
     {
-        "imageUrl": "images/conferences/IRPA_logo.png",
-        "title": "IRPA 16 HPS",
-        "eventDate": "7-12 July 2024, USA",
-        "content": "Contribution to the 16th International Congress of the International Radiation Protection Association (<a href='https://burkclients.com/IRPA/2024/site/welcome.html'>IRPA 16 HPS</a>), held in Orlando, Florida. A <a href='files/publications/2024_IRPA_Poster.pdf'>poster</a> was presented at the conference (see also the contribution <a href='files/publications/2024_IRPA_Abstract.pdf'>abstract</a>).",
-        "uploadDate": "2024-07-07",
+        "imageUrl": "images/conferences/Logo_RAP_24.png",
+        "title": "RAP 2024",
+        "eventDate": "10-12 June 2024, Spain",
+        "content": "Two contributions to the International Conference on Radiation Applications in Physics, Chemistry, Biology, Medical Sciences, Engineering and Environmental Sciences \n(<a href='https://www.rap-conference.org/24/index.php'>RAP 24</a>) held in Granada, Spain.\nAn <a href='files/publications/2024_RAP_Presentation.pptx'>oral presentation</a> and a <a href='files/publications/2024_RAP_Poster.pdf'>poster</a> \nwere presented at the conference (see the <a href='https://www.rap-conference.org/24/RAP_2024_Book_of_Abstracts.pdf'>Book of abstracts</a>).",
+        "uploadDate": "2024-06-10",
+        "imageType": "photo"
+    },
+    {
+        "imageUrl": "images/logos/consortium/VINS.jpg",
+        "title": "75th Anniversary Conference of the Vinča Institute",
+        "eventDate": "30-31 January 2024, Serbia",
+        "content": "Contribution to the scientific conference 75 Years of Science, Technology, and Innovation at the Vinča Institute (75 godina nauke, tehnologije i inovacija u Institutu Vinča), held on January 30 and 31, 2024, in the Grand Hall of the University of Belgrade Rectorate. An oral presentation titled \"<i>Dosimetry and Metrology of Ionizing Radiation</i>\" (\"<i>Dozimetrija i metrologija jonizujućeg zračenja</i>\") was given at the conference.",
+        "date": "2024-01-30",
         "imageType": "photo"
     },
     {
