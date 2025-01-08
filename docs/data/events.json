@@ -54,5 +54,13 @@
         "content": "On-site technical visit to the facilities of Mirion Technologies (Turku, Finland), a company that develops and manufactures gamma dosimeters.",
         "uploadDate": "2024-11-21",
         "imageType": "photo"
+    },
+    {
+        "imageUrl": "images/icons/congress.png",
+        "title": "Practical training course on ISO 4037",
+        "eventDate": "20th - 22nd May 2025",
+        "content": "The workshop will focus on \"Calibrating photon dosimeters to ISO 4037 standards and preparing for new radiation protection quantities\". It will be held in Athens (Greece) and it will last 3 days. It will comprise three days of lectures and discussions, followed by hands-on sessions, where participants will be divided into basic and advanced groups. <a href='learning.html'>See more details here</a>.",
+        "uploadDate": "2025-05-20",
+        "imageType": "icon"
     }
 ]
