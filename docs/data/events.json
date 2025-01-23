@@ -62,5 +62,45 @@
         "content": "The workshop will focus on \"Calibrating photon dosimeters to ISO 4037 standards and preparing for new radiation protection quantities\". It will be held in Athens (Greece) and it will last 3 days. It will comprise three days of lectures and discussions, followed by hands-on sessions, where participants will be divided into basic and advanced groups. <a href='learning.html'>See more details here</a>.",
         "uploadDate": "2025-05-20",
         "imageType": "icon"
+    },
+    {
+        "imageUrl": "images/icons/visit.png",
+        "title": "Technical visit of PTB at CMI",
+        "eventDate": "October 2023",
+        "content": "One-day meeting of PTB (Physikalisch-Technische Bundesanstalt, Germany) partners at CMI (Czech Metrology Institute, Czechia). It was dedicated to the discussion about in-beam spectrometry of X-ray calibration beams and further steps in the related activities in the project.",
+        "uploadDate": "2023-10-01",
+        "imageType": "icon"
+    },
+    {
+        "imageUrl": "images/photos/TV_CMI_PTB_2024_04.JPG",
+        "title": "Technical visit of CMI at PTB",
+        "eventDate": "23th - 26th April 2024",
+        "content": "Four-day visit of CMI (Czech Metrology Institute, Czechia) partners to PTB (Physikalisch-Technische Bundesanstalt, Germany) . The partners carried out measurements of photon fluence spectra of reference X-ray beams, tested the spectrometric detector settings and performance, and obtained data for further use of the spectrometer as an instrument for determination of high voltage on the X-ray tube.",
+        "uploadDate": "2024-04-23",
+        "imageType": "photo"
+    },
+    {
+        "imageUrl": "images/photos/TV_CMI_STUK_2024_11.jpg",
+        "title": "Technical visit of CMI at STUK",
+        "eventDate": "23th - 27th November 2024",
+        "content": "Five-day visit of CMI (Czech Metrology Institute, Czechia) partners to STUK (Radiation and Nuclear Safety Authority, Finland) photon dosimetry facility. The partners carried out measurements of photon fluence spectra of two industrial Am-241 radionuclide sources. In the calibration facility dedicated for measurements in X-ray beams, the partners measured photon fluence spectra of reference X-ray radiation qualities.",
+        "uploadDate": "2024-11-23",
+        "imageType": "photo"
+    },
+    {
+        "imageUrl": "images/icons/visit.png",
+        "title": "Technical visit of INM at VINS",
+        "eventDate": "September 2023",
+        "content": "Visit of INM (National Institute of Metrology, Republic of Moldova) partners at VINS (Vinča Institute of Nuclear Sciences, Serbia) on September 2023. The partners discussed activities related to work packages WP1 and WP5.",
+        "uploadDate": "2023-09-01",
+        "imageType": "icon"
+    },
+    {
+        "imageUrl": "images/icons/visit.png",
+        "title": "Technical visit of QST at PTB",
+        "eventDate": "September 2024",
+        "content": "Visit of QST (National Institutes for Quantum Science and Technology, Japan) partners at PTB (Physikalisch-Technische Bundesanstalt, Germany) September 2024. The partners discussed activities related to work packages WP1 and WP3.",
+        "uploadDate": "2024-09-01",
+        "imageType": "icon"
     }
 ]
