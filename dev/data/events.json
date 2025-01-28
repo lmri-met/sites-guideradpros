@@ -88,19 +88,19 @@
         "imageType": "photo"
     },
     {
-        "imageUrl": "images/icons/visit.png",
+        "imageUrl": "images/photos/TV_INM_VINS_2023_09.jpg",
         "title": "Technical visit of INM at VINS",
-        "eventDate": "September 2023",
-        "content": "Visit of INM (National Institute of Metrology, Republic of Moldova) partners at VINS (Vinča Institute of Nuclear Sciences, Serbia) on September 2023. The partners discussed activities related to work packages WP1 and WP5.",
+        "eventDate": "4th - 9th September 2023",
+        "content": "Visit of INM (National Institute of Metrology, Republic of Moldova) partners at VINS (Vinča Institute of Nuclear Sciences, Serbia) on September 2023. The partners worked on the Dissemination, communication and exploitation plan. They also worked in activities related to dosimeters type testing, focusing on how to establish reference values and validate capabilities and how to characterize the fields.",
         "uploadDate": "2023-09-01",
-        "imageType": "icon"
+        "imageType": "photo"
     },
     {
-        "imageUrl": "images/icons/visit.png",
+        "imageUrl": "images/photos/TV_QST_PTB_2024_09.jpg",
         "title": "Technical visit of QST at PTB",
-        "eventDate": "September 2024",
-        "content": "Visit of QST (National Institutes for Quantum Science and Technology, Japan) partners at PTB (Physikalisch-Technische Bundesanstalt, Germany) September 2024. The partners discussed activities related to work packages WP1 and WP3.",
+        "eventDate": "2nd - 6th September 2024",
+        "content": "Visit of QST (National Institutes for Quantum Science and Technology, Japan) partners at PTB (Physikalisch-Technische Bundesanstalt, Germany) September 2024. The partners discussed how to test current dosimeters used in pulsed X-ray fields in Japan and how to test the applicability of IEC 63050.",
         "uploadDate": "2024-09-01",
-        "imageType": "icon"
+        "imageType": "photo"
     }
 ]
