@@ -1,30 +1,39 @@
 [
-    {
-        "imageUrl": "images/icons/document.png",
-        "documentUrl": "files/documents/22NRM07 Publishable Summary M18 final.pdf",
-        "title": "GuideRadPROS Publishable summary",
-        "uploadDate": "2023-09-19",
-        "imageType": "icon",
-        "eventDate": "19th September 2023",
-        "description": "This document contains the summary of the GuideRadPROS Project."
-    },
-    {
-        "imageUrl": "images/icons/flyer.png",
-        "documentUrl": "files/documents/GuideRadPROS_Flyer_18092023.pdf",
-        "title": "GuideRadPROS Flyer",
-        "uploadDate": "2023-09-18",
-        "imageType": "icon",
-        "eventDate": "18th September 2023",
-        "description": "This is the flyer of the GuideRadPROS Project."
-    },
-    {
-        "imageUrl": "images/icons/poster.png",
-        "documentUrl": "files/documents/GuideRadPROS_Poster_18092023.pdf",
-        "title": "GuideRadPROS Poster",
-        "uploadDate": "2023-09-17",
-        "imageType": "icon",
-        "eventDate": "17th September 2023",
-        "description": "This is the poster of the GuideRadPROS Project."
-    }
+  {
+    "imageUrl": "images/icons/document.png",
+    "documentUrl": "files/documents/GuideRadPROS D7 submitted.pdf",
+    "title": "GuideRadPROS Deliverable 7",
+    "uploadDate": "2025-07-30",
+    "imageType": "icon",
+    "eventDate": "July 2025",
+    "description": "Publication of the project deliverable D7: \"Future standardization needs related to new and upcoming technologies in personal dosimetry\"."
+  },
+  {
+    "imageUrl": "images/icons/document.png",
+    "documentUrl": "files/documents/22NRM07 Publishable Summary M18 final.pdf",
+    "title": "GuideRadPROS Publishable summary",
+    "uploadDate": "2023-09-19",
+    "imageType": "icon",
+    "eventDate": "19th September 2023",
+    "description": "This document contains the summary of the GuideRadPROS Project."
+  },
+  {
+    "imageUrl": "images/icons/flyer.png",
+    "documentUrl": "files/documents/GuideRadPROS_Flyer_18092023.pdf",
+    "title": "GuideRadPROS Flyer",
+    "uploadDate": "2023-09-18",
+    "imageType": "icon",
+    "eventDate": "18th September 2023",
+    "description": "This is the flyer of the GuideRadPROS Project."
+  },
+  {
+    "imageUrl": "images/icons/poster.png",
+    "documentUrl": "files/documents/GuideRadPROS_Poster_18092023.pdf",
+    "title": "GuideRadPROS Poster",
+    "uploadDate": "2023-09-17",
+    "imageType": "icon",
+    "eventDate": "17th September 2023",
+    "description": "This is the poster of the GuideRadPROS Project."
+  }
 ]
 

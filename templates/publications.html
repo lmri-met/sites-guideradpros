@@ -8,40 +8,90 @@
 
 {% block content %}
 
-<!-- Page title -->
-<div id="main-wrapper" style="background: #aaaaaa; margin-bottom: 20px; height: 10px;">
-    <div class="container" id="section-title-container">
-        <h2 style="color:white;margin-top: -20px;" id="section-title">Publications</h2>
-    </div>
-</div>
-
-<!-- Publications -->
-<div id="main-wrapper" style="margin-top: -25px;">
-    <div class="container">
-        <div id="content">
-
-            <!-- Content -->
-            <article>
-                <p>Within the duration of the 22NRM07 GuideRadPROS EMP project, publications in international journals
-                    will be made to communicate and disseminate the technical and scientific results of the project.
-                    In this section you can find the publications derived from the project.
-                </p>
-                <ol>
-                  <li>Publication in the <strong>Proceedings of the International Joint Conference on Industrial
-                      Engineering and Operations Management</strong>:
-                      </br></br>
-                      Ferreira, M. , Siiskonen, T., & Zivanovich, M. (2024).
-                      <i>Towards metrological best practices in radiation protection</i>.
-                      Proceedings of the International Joint Conference on Industrial Engineering and Operations Management.
-                      IJCIEOM 2024.
-                      DOI: <a href="https://abepro.org.br/proceedings/artigo.asp?e=icieom&a=2023&c=37886">10.14488/ijcieom2024_full_0057_37886</a>
-                  </li>
-                </ol>
-            </article>
-
+    <!-- Page title -->
+    <div id="main-wrapper" style="background: #aaaaaa; margin-bottom: 20px; height: 10px;">
+        <div class="container" id="section-title-container">
+            <h2 style="color:white;margin-top: -20px;" id="section-title">Publications</h2>
         </div>
     </div>
-</div>
+
+    <!-- Publications -->
+    <div id="main-wrapper" style="margin-top: -25px; text-align:center">
+
+        <div class="container" style="padding-bottom: 40px">
+            <div id="content">
+                <article>
+                    <h3>
+                        Re-calculation of air kerma to dose-equivalent conversion coefficients for mono-energetic
+                        photons
+                    </h3>
+                    <p>
+                        Šolc, J., Avilés Lucas, P., Bakrač, L., Behrens, R., Ciccotelli, A., Cornejo Díaz, N.,
+                        Fernandes, A., Ketelhut, S., Kržanović, N., Pinto, M., Siiskonen, T., Sochor, V., Tesař, J.,
+                        Tikkanen, J., Topalović, D. B., Van Hoey, O., Zutz, H., & Živanović, M.<br>
+                        <strong>Journal of Radiological Protection, 2025</strong><br>
+                        DOI: <a href="https://doi.org/10.1088/1361-6498/adda56">10.1088/1361-6498/adda56</a>
+                    </p>
+                    <p>
+                        This work presents new calculations of conversion coefficients (CCs) from total air kerma to
+                        dose-equivalent quantities H’(0.07), H’(3), H*(10), Hp(0.07), Hp(3), and Hp(10) for area and
+                        personal dosimetry for mono-energetic photons in the energy range from 2 keV to 50 MeV, assuming
+                        secondary charged particle equilibrium. Calculations using the Monte Carlo N-Particle® (MCNP)
+                        code were performed for a large number of photon energies with the aim of preventing errors
+                        resulting from possible improper interpolation between currently available sparsely spaced CC
+                        values, when an average CC value over a photon fluence spectrum needs to be determined. The CC
+                        values were compared with the values published in the ISO 4037-3:2019 standard. A very close
+                        agreement was achieved for the majority of CCs. Larger discrepancies were found for some CCs,
+                        often for low photon energies or large angles of radiation incidence, which were taken from
+                        older publications or when CC values were interpolated or extrapolated. Furthermore, some
+                        differences were found in the MeV energy range, which are significant for dosimeter
+                        calibrations, e.g. the presented values of CC to H*(10) for the main photon energies of 137Cs
+                        and 60Co radionuclides are both lower by 2.8%. Finally, it was found that the values of CCs to
+                        Hp(0.07; E, α)slab given in ISO 4037-3:2019 were not taken correctly from the source
+                        publication. In conclusion, the CC values given in ISO 4037-3:2019 should be updated in view of
+                        the results obtained.
+                    </p>
+                </article>
+            </div>
+        </div>
+
+        <div style="background: rgb(100, 149, 237, 0.1)">
+            <div class="container" style="padding-top: 40px; padding-bottom: 40px">
+                <div id="content">
+                    <article>
+                        <h3>
+                            Towards metrological best practices in radiation protection
+                        </h3>
+                        <p>
+                            Ferreira, M., Siiskonen, T., & Zivanovich, M.<br>
+                            <strong>Proceedings of the International Joint Conference on Industrial Engineering and
+                                Operations Management, 2024</strong><br>
+                            DOI: <a href="https://doi.org/10.14488/ijcieom2024_full_0057_37886">10.14488/ijcieom2024_full_0057_37886</a>
+                        </p>
+                        <p>
+                            This paper presents the state of the art and expected impact on metrology, health,
+                            standards, and society of the new joint research project 22NRM07 GuideRadPROS, started in
+                            June 2023 and is running for 36 months. The main objective is to provide technical guidance
+                            to metrology institutes, standardization bodies, regulators, and manufacturers for a
+                            harmonized approach to calibration, testing, and measurements using the radiation protection
+                            dosimeters for photon radiation. Moreover, manufacturers and standardization bodies will be
+                            helped to prepare for the forthcoming change in radiation protection quantities. The results
+                            of this research project will facilitate the take up of the technology and measurement
+                            infrastructure developed and consequently will ensure the improvement of the measurement
+                            supply chain from the manufactures to the end users. New guides and new protocols provided
+                            by this research will represent a contribution towards best metrological practices in
+                            radiation measurements in line with technological developments and requirements from
+                            standardization. This project was selected for funding through the European Partnership on
+                            Metrology program of the European Commission and the participating countries. It involves
+                            several participants from national metrology institutes and designated institutes and a
+                            private company.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 {% endblock %}
 

@@ -1,10 +1,18 @@
 [
+    {
+        "imageUrl": "images/conferences/Logo_SEFM_SEPR_2025.png",
+        "title": "25 SEFM | SEPR 20 ",
+        "eventDate": "27-30 May 2025, Spain",
+        "content": "Contribution to the 9th Joint Congress of the Spanish Society of Medical Physics (SEFM) and the Spanish Society of Radiological Protection (SEPR) (<a href='https://congresosefmsepr.es/toledo2025/'>25 SEFM SEPR 20</a>), held on May 27-30, 2025, in the El Greco Conference Center of Toledo, Spain. A poster titled \"<i>Enhancing traceability in radiation protection dosimetry</i>\" was presented.",
+        "uploadDate": "2025-05-27",
+        "imageType": "photo"
+    },
         {
         "imageUrl": "images/conferences/Logo_ERPW_24.png",
         "title": "ERPW 2024",
         "eventDate": "11-15 November 2024, Italy",
         "content": "Contribution to the European Radiation Protection Week 2024 (<a href='https://www.erpw2024.eu/'>ERPW 2024</a>), held on November 11-15, 2024, in the Aurelia Auditorium Congress Center in Rome, Italy. An oral presentation titled \"<i>Implications of the realization of characterised reference radiation fields in a primary standards dosimertry laboratory</i>\" was given in the \"Planned and existing exposure of workers due to artificial radiation in normal operational condition\" (see the <a href='https://www.iss.it/documents/20126/7120568/24_C4+per+online.pdf/460cc42f-62e2-01d7-01d3-eb05ced9ae1f?t=1731073995684'>Book of abstracts</a>).",
-        "date": "2024-11-11",
+        "uploadDate": "2024-11-11",
         "imageType": "photo"
     },
     {
@@ -76,7 +84,7 @@
         "title": "AIRP 2023",
         "eventDate": "27-29 September 2023, Italy",
         "content": "Contribution to the National Conference of <a href='https://www.airp-asso.it/'>AIRP</a> on Radioprotection, held in Cagliari, Italy. An <a href='files/publications/2023_AIRP_Abstract_Tikkanen.pdf'>oral presentation</a> and two posters (see them <a href='files/publications/2023_AIRP_Abstract_Toma.pdf'>here</a> and <a href='files/publications/2023_AIRP_Abstract_Rinaldi.pdf'>here</a>) were presented in the Dosimetry/Measurement Methods section (see the <a href='https://www.airp-asso.it/2023/09/13/convegno-nazionale-airp-di-radioprotezione-cagliari-27-28-e-29-settembre-2023-programma-scientifico-scheda-iscrizioni/'>Scientific Program</a>).",
-        "date": "2023-09-27",
+        "uploadDate": "2023-09-27",
         "imageType": "photo"
     }
 ]
