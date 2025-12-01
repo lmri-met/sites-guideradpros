@@ -1,90 +1,106 @@
 [
-    {
-        "imageUrl": "images/conferences/Logo_SEFM_SEPR_2025.png",
-        "title": "25 SEFM | SEPR 20 ",
-        "eventDate": "27-30 May 2025, Spain",
-        "content": "Contribution to the 9th Joint Congress of the Spanish Society of Medical Physics (SEFM) and the Spanish Society of Radiological Protection (SEPR) (<a href='https://congresosefmsepr.es/toledo2025/'>25 SEFM SEPR 20</a>), held on May 27-30, 2025, in the El Greco Conference Center of Toledo, Spain. A poster titled \"<i>Enhancing traceability in radiation protection dosimetry</i>\" was presented.",
-        "uploadDate": "2025-05-27",
-        "imageType": "photo"
-    },
-        {
-        "imageUrl": "images/conferences/Logo_ERPW_24.png",
-        "title": "ERPW 2024",
-        "eventDate": "11-15 November 2024, Italy",
-        "content": "Contribution to the European Radiation Protection Week 2024 (<a href='https://www.erpw2024.eu/'>ERPW 2024</a>), held on November 11-15, 2024, in the Aurelia Auditorium Congress Center in Rome, Italy. An oral presentation titled \"<i>Implications of the realization of characterised reference radiation fields in a primary standards dosimertry laboratory</i>\" was given in the \"Planned and existing exposure of workers due to artificial radiation in normal operational condition\" (see the <a href='https://www.iss.it/documents/20126/7120568/24_C4+per+online.pdf/460cc42f-62e2-01d7-01d3-eb05ced9ae1f?t=1731073995684'>Book of abstracts</a>).",
-        "uploadDate": "2024-11-11",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/conferences/IRPA_logo.png",
-        "title": "IRPA 16 HPS",
-        "eventDate": "7-12 July 2024, USA",
-        "content": "Contribution to the 16th International Congress of the International Radiation Protection Association (<a href='https://burkclients.com/IRPA/2024/site/welcome.html'>IRPA 16 HPS</a>), held in Orlando, Florida. A <a href='files/publications/2024_IRPA_Poster.pdf'>poster</a> was presented at the conference (see also the contribution <a href='files/publications/2024_IRPA_Abstract.pdf'>abstract</a>).",
-        "uploadDate": "2024-07-07",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/conferences/Logo-IJCIEOM-2024-2.png",
-        "title": "28th IJCIEOM",
-        "eventDate": "26-28 June 2024, Brazil",
-        "content": "Contribution to the 28th International Joint Conference on Industrial Engineering and Operations Management (<a href='https://ijcieom.org/2024/'>IJCIEOM 2024</a>), held in Salvador, Brazil. An oral presentation was given in the Healthcare Management section. A peer-reviewed <a href='http://portalabepro.educacao.ws/ijcieom/restrito/arquivos/icieom2024/FULL_0057_37886.pdf'>publication</a> is included in the conference <a href='https://abepro.org.br/proceedings/artigo.asp?e=icieom&a=2023&c=37886'>proceedings</a>.",
-        "uploadDate": "2024-06-26",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/conferences/Logo_RAP_24.png",
-        "title": "RAP 2024",
-        "eventDate": "10-12 June 2024, Spain",
-        "content": "Two contributions to the International Conference on Radiation Applications in Physics, Chemistry, Biology, Medical Sciences, Engineering and Environmental Sciences \n(<a href='https://www.rap-conference.org/24/index.php'>RAP 24</a>) held in Granada, Spain.\nAn <a href='files/publications/2024_RAP_Presentation.pptx'>oral presentation</a> and a <a href='files/publications/2024_RAP_Poster.pdf'>poster</a> \nwere presented at the conference (see the <a href='https://www.rap-conference.org/24/RAP_2024_Book_of_Abstracts.pdf'>Book of abstracts</a>).",
-        "uploadDate": "2024-06-10",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/logos/consortium/VINS.jpg",
-        "title": "75th Anniversary Conference of the Vinča Institute",
-        "eventDate": "30-31 January 2024, Serbia",
-        "content": "Contribution to the scientific conference 75 Years of Science, Technology, and Innovation at the Vinča Institute (75 godina nauke, tehnologije i inovacija u Institutu Vinča), held on January 30 and 31, 2024, in the Grand Hall of the University of Belgrade Rectorate. An oral presentation titled \"<i>Dosimetry and Metrology of Ionizing Radiation</i>\" (\"<i>Dozimetrija i metrologija jonizujućeg zračenja</i>\") was given at the conference.",
-        "date": "2024-01-30",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/icons/congress.png",
-        "title": "CS LNE 2023",
-        "eventDate": "November 2023, France",
-        "content": "Contribution to the Annual Meeting of the French Metrology Network for ionizing radiation, held in Cadarache, France, in November 2023. An <a href='files/publications/2023_LNE_Presentation.pdf'>oral presentation</a> was given at the conference.",
-        "uploadDate": "2023-11-01",
-        "imageType": "icon"
-    },
-    {
-        "imageUrl": "images/icons/congress.png",
-        "title": "44 DRO 2023",
-        "eventDate": "6-10 November 2023, Czechia",
-        "content": "Two contributions to the 44th Radiation Protection Days annual meeting (<a href='https://indico.ujf.cas.cz/event/6/'>44 DRO</a>), held in Tábor, Czechia. An <a href='files/publications/2023_DRO_Presentation.pdf'>oral presentation</a> and a <a href='files/publications/2023_DRO_Poster.pdf'>poster</a> were presented at the conference (see the <a href='https://indico.ujf.cas.cz/event/6/attachments/62/144/dro2023-boa-scr.pdf'>Book of abstracts</a>).",
-        "uploadDate": "2023-11-06",
-        "imageType": "icon"
-    },
-    {
-        "imageUrl": "images/conferences/ICDA-4_Horizontal-1.jpg",
-        "title": "ICDA-4",
-        "eventDate": "16-20 October 2023, Spain",
-        "content": "Contribution to the 4th International Conference on Dosimetry and its Applications (<a href='https://icda-4.webs.upv.es/'>ICDA-4</a>), held in Valencia, Spain. A <a href='files/publications/2023_ICDA4_Abstract.pdf'>poster</a> was presented in the Individual Dosimetry and Monitoring section (see the <a href='https://icda-4.webs.upv.es/?page_id=74'>Book of abstracts</a>).",
-        "uploadDate": "2023-10-16",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/conferences/ERPW_Logo_400x273.png",
-        "title": "ERPW 2023",
-        "eventDate": "9-13 October 2023, Ireland",
-        "content": "Contribution to the 7th European Radiation Protection Week (<a href='https://www.ucd.ie/ERPW2023/'>ERPW 2023</a>), held in Dublin, Ireland. A <a href='files/publications/2023_ERPW_Abstract.pdf'>poster</a> was presented in the Occupational Radiation Protection section (see the <a href='https://www.ucd.ie/ERPW2023/t4media/ERPW%202023%20Full%20Programme%20and%20Book%20of%20Abstracts%20Nov.pdf'>Book of abstracts</a>).",
-        "uploadDate": "2023-10-09",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/conferences/old_logo-airp.png",
-        "title": "AIRP 2023",
-        "eventDate": "27-29 September 2023, Italy",
-        "content": "Contribution to the National Conference of <a href='https://www.airp-asso.it/'>AIRP</a> on Radioprotection, held in Cagliari, Italy. An <a href='files/publications/2023_AIRP_Abstract_Tikkanen.pdf'>oral presentation</a> and two posters (see them <a href='files/publications/2023_AIRP_Abstract_Toma.pdf'>here</a> and <a href='files/publications/2023_AIRP_Abstract_Rinaldi.pdf'>here</a>) were presented in the Dosimetry/Measurement Methods section (see the <a href='https://www.airp-asso.it/2023/09/13/convegno-nazionale-airp-di-radioprotezione-cagliari-27-28-e-29-settembre-2023-programma-scientifico-scheda-iscrizioni/'>Scientific Program</a>).",
-        "uploadDate": "2023-09-27",
-        "imageType": "photo"
-    }
+  {
+    "imageUrl": "images/conferences/Logo_SEFM_SEPR_2025.png",
+    "title": "25 SEFM | SEPR 20 ",
+    "eventDate": "27-30 May 2025, Spain",
+    "content": "Contribution to the 9th Joint Congress of the Spanish Society of Medical Physics (SEFM) and the Spanish Society of Radiological Protection (SEPR) (<a href='https://congresosefmsepr.es/toledo2025/'>25 SEFM SEPR 20</a>), held on May 27-30, 2025, in the El Greco Conference Center of Toledo, Spain. A poster titled \"<i>Enhancing traceability in radiation protection dosimetry</i>\" was presented.",
+    "uploadDate": "2025-05-27",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/conferences/CSFM-logo.png",
+    "title": "13th Conference of Radiological Physics",
+    "eventDate": "8-10 April 2025 , Czech Republic ",
+    "content": "Contribution to the 13th Conference of Radiological Physics , held in Srní, Czech Republic, in April 2025. An oral presentation titled \"Current activities of CMI in radiology\" was given at the conference.",
+    "uploadDate": "2025-04-08",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/conferences/Logo_ERPW_24.png",
+    "title": "ERPW 2024",
+    "eventDate": "11-15 November 2024, Italy",
+    "content": "Contribution to the European Radiation Protection Week 2024 (<a href='https://www.erpw2024.eu/'>ERPW 2024</a>), held on November 11-15, 2024, in the Aurelia Auditorium Congress Center in Rome, Italy. An oral presentation titled \"<i>Implications of the realization of characterised reference radiation fields in a primary standards dosimertry laboratory</i>\" was given in the \"Planned and existing exposure of workers due to artificial radiation in normal operational condition\" (see the <a href='https://www.iss.it/documents/20126/7120568/24_C4+per+online.pdf/460cc42f-62e2-01d7-01d3-eb05ced9ae1f?t=1731073995684'>Book of abstracts</a>).",
+    "uploadDate": "2024-11-11",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/conferences/IRPA_logo.png",
+    "title": "IRPA 16 HPS",
+    "eventDate": "7-12 July 2024, USA",
+    "content": "Contribution to the 16th International Congress of the International Radiation Protection Association (<a href='https://burkclients.com/IRPA/2024/site/welcome.html'>IRPA 16 HPS</a>), held in Orlando, Florida. A <a href='files/publications/2024_IRPA_Poster.pdf'>poster</a> was presented at the conference (see also the contribution <a href='files/publications/2024_IRPA_Abstract.pdf'>abstract</a>).",
+    "uploadDate": "2024-07-07",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/conferences/Logo-IJCIEOM-2024-2.png",
+    "title": "28th IJCIEOM",
+    "eventDate": "26-28 June 2024, Brazil",
+    "content": "Contribution to the 28th International Joint Conference on Industrial Engineering and Operations Management (<a href='https://ijcieom.org/2024/'>IJCIEOM 2024</a>), held in Salvador, Brazil. An oral presentation was given in the Healthcare Management section. A peer-reviewed <a href='http://portalabepro.educacao.ws/ijcieom/restrito/arquivos/icieom2024/FULL_0057_37886.pdf'>publication</a> is included in the conference <a href='https://abepro.org.br/proceedings/artigo.asp?e=icieom&a=2023&c=37886'>proceedings</a>.",
+    "uploadDate": "2024-06-26",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/conferences/Logo_RAP_24.png",
+    "title": "RAP 2024",
+    "eventDate": "10-12 June 2024, Spain",
+    "content": "Two contributions to the International Conference on Radiation Applications in Physics, Chemistry, Biology, Medical Sciences, Engineering and Environmental Sciences \n(<a href='https://www.rap-conference.org/24/index.php'>RAP 24</a>) held in Granada, Spain.\nAn <a href='files/publications/2024_RAP_Presentation.pptx'>oral presentation</a> and a <a href='files/publications/2024_RAP_Poster.pdf'>poster</a> \nwere presented at the conference (see the <a href='https://www.rap-conference.org/24/RAP_2024_Book_of_Abstracts.pdf'>Book of abstracts</a>).",
+    "uploadDate": "2024-06-10",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/conferences/HDZZ-logo.png",
+    "title": "4th Meeting of Young Members of the HDZZ ",
+    "eventDate": "1 March 2024, Croatia",
+    "content": "Contribution to the 4th Meeting of Young Members of the Croatian Radiation Protection Society, held in Zagreb, Croatia, in March 2024. An oral presentation titled \"Presentation of SSDL research projects at IRB\" was given at the conference.",
+    "uploadDate": "2024-03-01",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/logos/consortium/VINS.jpg",
+    "title": "75th Anniversary Conference of the Vinča Institute",
+    "eventDate": "30-31 January 2024, Serbia",
+    "content": "Contribution to the scientific conference 75 Years of Science, Technology, and Innovation at the Vinča Institute (75 godina nauke, tehnologije i inovacija u Institutu Vinča), held on January 30 and 31, 2024, in the Grand Hall of the University of Belgrade Rectorate. An oral presentation titled \"<i>Dosimetry and Metrology of Ionizing Radiation</i>\" (\"<i>Dozimetrija i metrologija jonizujućeg zračenja</i>\") was given at the conference.",
+    "uploadDate": "2024-01-30",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/icons/congress.png",
+    "title": "44 DRO 2023",
+    "eventDate": "6-10 November 2023, Czechia",
+    "content": "Two contributions to the 44th Radiation Protection Days annual meeting (<a href='https://indico.ujf.cas.cz/event/6/'>44 DRO</a>), held in Tábor, Czechia. An <a href='files/publications/2023_DRO_Presentation.pdf'>oral presentation</a> and a <a href='files/publications/2023_DRO_Poster.pdf'>poster</a> were presented at the conference (see the <a href='https://indico.ujf.cas.cz/event/6/attachments/62/144/dro2023-boa-scr.pdf'>Book of abstracts</a>).",
+    "uploadDate": "2023-11-06",
+    "imageType": "icon"
+  },
+  {
+    "imageUrl": "images/icons/congress.png",
+    "title": "CS LNE 2023",
+    "eventDate": "November 2023, France",
+    "content": "Contribution to the Annual Meeting of the French Metrology Network for ionizing radiation, held in Cadarache, France, in November 2023. An <a href='files/publications/2023_LNE_Presentation.pdf'>oral presentation</a> was given at the conference.",
+    "uploadDate": "2023-11-01",
+    "imageType": "icon"
+  },
+  {
+    "imageUrl": "images/conferences/ICDA-4_Horizontal-1.jpg",
+    "title": "ICDA-4",
+    "eventDate": "16-20 October 2023, Spain",
+    "content": "Contribution to the 4th International Conference on Dosimetry and its Applications (<a href='https://icda-4.webs.upv.es/'>ICDA-4</a>), held in Valencia, Spain. A <a href='files/publications/2023_ICDA4_Abstract.pdf'>poster</a> was presented in the Individual Dosimetry and Monitoring section (see the <a href='https://icda-4.webs.upv.es/?page_id=74'>Book of abstracts</a>).",
+    "uploadDate": "2023-10-16",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/conferences/ERPW_Logo_400x273.png",
+    "title": "ERPW 2023",
+    "eventDate": "9-13 October 2023, Ireland",
+    "content": "Contribution to the 7th European Radiation Protection Week (<a href='https://www.ucd.ie/ERPW2023/'>ERPW 2023</a>), held in Dublin, Ireland. A <a href='files/publications/2023_ERPW_Abstract.pdf'>poster</a> was presented in the Occupational Radiation Protection section (see the <a href='https://www.ucd.ie/ERPW2023/t4media/ERPW%202023%20Full%20Programme%20and%20Book%20of%20Abstracts%20Nov.pdf'>Book of abstracts</a>).",
+    "uploadDate": "2023-10-09",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/conferences/old_logo-airp.png",
+    "title": "AIRP 2023",
+    "eventDate": "27-29 September 2023, Italy",
+    "content": "Contribution to the National Conference of <a href='https://www.airp-asso.it/'>AIRP</a> on Radioprotection, held in Cagliari, Italy. An <a href='files/publications/2023_AIRP_Abstract_Tikkanen.pdf'>oral presentation</a> and two posters (see them <a href='files/publications/2023_AIRP_Abstract_Toma.pdf'>here</a> and <a href='files/publications/2023_AIRP_Abstract_Rinaldi.pdf'>here</a>) were presented in the Dosimetry/Measurement Methods section (see the <a href='https://www.airp-asso.it/2023/09/13/convegno-nazionale-airp-di-radioprotezione-cagliari-27-28-e-29-settembre-2023-programma-scientifico-scheda-iscrizioni/'>Scientific Program</a>).",
+    "uploadDate": "2023-09-27",
+    "imageType": "photo"
+  }
 ]
