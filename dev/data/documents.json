@@ -1,8 +1,17 @@
 [
   {
     "imageUrl": "images/icons/document.png",
+    "documentUrl": "files/documents/Guide_01.pdf",
+    "title": "GuideRadPROS Guidance document on standardization for radiation protection dosemeters in different applications",
+    "uploadDate": "2025-10-30",
+    "imageType": "icon",
+    "eventDate": "October 2025",
+    "description": "Publication of the project good practice guide on \"Standardization for radiation protection dosemeters in different applications\"."
+  },
+  {
+    "imageUrl": "images/icons/document.png",
     "documentUrl": "files/documents/GuideRadPROS D7 submitted.pdf",
-    "title": "GuideRadPROS Deliverable 7",
+    "title": "GuideRadPROS Deliverable 7: Future standardization needs related to new and upcoming technologies in personal dosimetry",
     "uploadDate": "2025-07-30",
     "imageType": "icon",
     "eventDate": "July 2025",

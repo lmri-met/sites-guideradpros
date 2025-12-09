@@ -1,5 +1,22 @@
 [
   {
+    "imageUrl": "images/conferences/ECR_2026_logo.png",
+    "title": "ECR 2026 2025",
+    "eventDate": "4-8 March 2026, Austria",
+    "content": "Poster contribution to the <i>European Congress of Radiology 2026: Rays of Knowledge</i> (<a href='https://myesr.org/congress/'>ECR 2026</a>), to be held on March 4–8, 2026, in the Austria Center at Vienna, Austria.",
+    "uploadDate": "2026-03-04",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/conferences/IAEA_logo.png",
+    "title": "RadProM 2025",
+    "eventDate": "8-12 December 2025, Austria",
+    "content": "Contribution to the <i>International Conference on Radiation Protection in Medicine: X Ray Vision</i> (<a href='https://www.iaea.org/events/radprom2025'>RadProM 2025</a>), to be held on December 8-12, 2025, in the IAEA Headquarters at Vienna, Austria. \nA <a href='files/publications/2025_RadProM_Poster.pdf'>poster</a> entitled \"<i>Challenges in traceability of medical dosimetry: proposals for updates in X-ray imaging, nuclear medicine and radiation protection</i>\" is to be presented in the section \"<i>Regulations and guidelines</i>\". This poster is presented jointly with <a href='https://tramexi.com/'>TraMeXi</a> and <a href='https://etrainproject.org/'>ETrain</a> projects.",
+    "uploadDate": "2025-12-08",
+    "imageType": "photo"
+  },
+
+  {
     "imageUrl": "images/conferences/Logo_SEFM_SEPR_2025.png",
     "title": "25 SEFM | SEPR 20 ",
     "eventDate": "27-30 May 2025, Spain",
