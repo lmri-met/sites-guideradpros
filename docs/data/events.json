@@ -1,106 +1,114 @@
 [
-    {
-        "imageUrl": "images/icons/meeting.png",
-        "title": "First Stakeholder Committee meeting of GuideRadPROS",
-        "eventDate": "27th February 2024",
-        "content": "The first Stakeholder Committee meeting was held in a virtual platform on the 27th February 2024. The agenda of the meeting included an introduction of the project, presentations of stakeholders and a discussion with feedback for the progress of the project consortium.",
-        "uploadDate": "2024-02-27",
-        "imageType": "icon"
-    },
-    {
-        "imageUrl": "images/photos/M9_technical_visit_croped.svg",
-        "title": "GuideRadPROS technical visit",
-        "eventDate": "9th February 2024",
-        "content": "Short technical visit to the x-ray laboratories of ENEA (Casaccia, Italy) in order to do spectrometry of ISO 4037 standard x-ray beam qualities.",
-        "uploadDate": "2024-02-09",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/photos/M9_meeting.svg",
-        "title": "M9 GuideRadPROS meeting",
-        "eventDate": "7-8 February 2024",
-        "content": "The M9 meeting of the 22NRM07 GuideRadPROS Project was held in Italy at Ospedale Bambino Gesù (Rome).",
-        "uploadDate": "2024-02-07",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/photos/Kick_off_meeting.svg",
-        "title": "1st kick off meeting of GuideRadPROS Consortium",
-        "eventDate": "10-11 July 2023",
-        "content": "The 1st meeting of the EURAMET EMP 22NRM07 GuideRadPROS Consortium took place in Finland at STUK (Vantaa).",
-        "uploadDate": "2023-07-10",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/icons/icon-webinar.png",
-        "title": "First online workshop",
-        "eventDate": "30 September - 1 October 2024",
-        "content": "The first workshop of the GuideRadPROS ProjectEURAMET will be held online and it will last 2 days. The goal of the workshop is to test the developed theoretical training material on ISO 4037:2019 and ISO 29661. See the <a href='images/First_workshop_flyer.png'>workshop flyer</a> for more information. To register for the workshop, please fill out this <a href='https://bit.ly/GuideRadPROS_Workshop_Form'>registration form</a>. Check the <a href='images/First_workshop_timetable.pdf'>workshop timetable</a>. Here you can find the <a href='images/First_workshop_links.pdf'>links</a> to the workshop sessions.",
-        "uploadDate": "2024-09-30",
-        "imageType": "icon"
-    },
-    {
-        "imageUrl": "images/photos/M18_meeting.jpg",
-        "title": "M18 GuideRadPROS meeting",
-        "eventDate": "20-21 November 2024",
-        "content": "The M18 meeting of the 22NRM07 GuideRadPROS Project was held in Finland at STUK (Vantaa).",
-        "uploadDate": "2024-11-20",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/photos/M18_technical_visit.jpg",
-        "title": "M18 GuideRadPROS technical visit",
-        "eventDate": "21st November 2024",
-        "content": "On-site technical visit to the facilities of Mirion Technologies (Turku, Finland), a company that develops and manufactures gamma dosimeters.",
-        "uploadDate": "2024-11-21",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/icons/congress.png",
-        "title": "Practical training course on ISO 4037",
-        "eventDate": "20th - 22nd May 2025",
-        "content": "The workshop will focus on \"Calibrating photon dosimeters to ISO 4037 standards and preparing for new radiation protection quantities\". It will be held in Athens (Greece) and it will last 3 days. It will comprise three days of lectures and discussions, followed by hands-on sessions, where participants will be divided into basic and advanced groups. <a href='learning.html'>See more details here</a>.",
-        "uploadDate": "2025-05-20",
-        "imageType": "icon"
-    },
-    {
-        "imageUrl": "images/icons/visit.png",
-        "title": "Technical visit of PTB at CMI",
-        "eventDate": "October 2023",
-        "content": "One-day meeting of PTB (Physikalisch-Technische Bundesanstalt, Germany) partners at CMI (Czech Metrology Institute, Czechia). It was dedicated to the discussion about in-beam spectrometry of X-ray calibration beams and further steps in the related activities in the project.",
-        "uploadDate": "2023-10-01",
-        "imageType": "icon"
-    },
-    {
-        "imageUrl": "images/photos/TV_CMI_PTB_2024_04.JPG",
-        "title": "Technical visit of CMI at PTB",
-        "eventDate": "23th - 26th April 2024",
-        "content": "Four-day visit of CMI (Czech Metrology Institute, Czechia) partners to PTB (Physikalisch-Technische Bundesanstalt, Germany) . The partners carried out measurements of photon fluence spectra of reference X-ray beams, tested the spectrometric detector settings and performance, and obtained data for further use of the spectrometer as an instrument for determination of high voltage on the X-ray tube.",
-        "uploadDate": "2024-04-23",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/photos/TV_CMI_STUK_2024_11.jpg",
-        "title": "Technical visit of CMI at STUK",
-        "eventDate": "23th - 27th November 2024",
-        "content": "Five-day visit of CMI (Czech Metrology Institute, Czechia) partners to STUK (Radiation and Nuclear Safety Authority, Finland) photon dosimetry facility. The partners carried out measurements of photon fluence spectra of two industrial Am-241 radionuclide sources. In the calibration facility dedicated for measurements in X-ray beams, the partners measured photon fluence spectra of reference X-ray radiation qualities.",
-        "uploadDate": "2024-11-23",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/photos/TV_INM_VINS_2023_09.jpg",
-        "title": "Technical visit of INM at VINS",
-        "eventDate": "4th - 9th September 2023",
-        "content": "Visit of INM (National Institute of Metrology, Republic of Moldova) partners at VINS (Vinča Institute of Nuclear Sciences, Serbia) on September 2023. The partners worked on the Dissemination, communication and exploitation plan. They also worked in activities related to dosimeters type testing, focusing on how to establish reference values and validate capabilities and how to characterize the fields.",
-        "uploadDate": "2023-09-01",
-        "imageType": "photo"
-    },
-    {
-        "imageUrl": "images/photos/TV_QST_PTB_2024_09.jpg",
-        "title": "Technical visit of QST at PTB",
-        "eventDate": "2nd - 6th September 2024",
-        "content": "Visit of QST (National Institutes for Quantum Science and Technology, Japan) partners at PTB (Physikalisch-Technische Bundesanstalt, Germany) September 2024. The partners discussed how to test current dosimeters used in pulsed X-ray fields in Japan and how to test the applicability of IEC 63050.",
-        "uploadDate": "2024-09-01",
-        "imageType": "photo"
-    }
+  {
+    "imageUrl": "images/photos/Messukeskus-halli.jpg",
+    "title": "Stakeholder Committee meeting of GuideRadPROS",
+    "eventDate": "16th February 2026",
+    "content": "The Stakeholder Committee meeting will be held in the Helsinki Expo and Convention Centre on the 16th February 2026. The aim of the meeting is to present the key outcomes of the project and to seek feedback on approaches to support the update of ISO 4037, address the implications of the ICRU Report 95, and identify future standardization needs.",
+    "uploadDate": "2026-02-16",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/icons/meeting.png",
+    "title": "First Stakeholder Committee meeting of GuideRadPROS",
+    "eventDate": "27th February 2024",
+    "content": "The first Stakeholder Committee meeting was held in a virtual platform on the 27th February 2024. The agenda of the meeting included an introduction of the project, presentations of stakeholders and a discussion with feedback for the progress of the project consortium.",
+    "uploadDate": "2024-02-27",
+    "imageType": "icon"
+  },
+  {
+    "imageUrl": "images/photos/M9_technical_visit_croped.svg",
+    "title": "GuideRadPROS technical visit",
+    "eventDate": "9th February 2024",
+    "content": "Short technical visit to the x-ray laboratories of ENEA (Casaccia, Italy) in order to do spectrometry of ISO 4037 standard x-ray beam qualities.",
+    "uploadDate": "2024-02-09",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/photos/M9_meeting.svg",
+    "title": "M9 GuideRadPROS meeting",
+    "eventDate": "7-8 February 2024",
+    "content": "The M9 meeting of the 22NRM07 GuideRadPROS Project was held in Italy at Ospedale Bambino Gesù (Rome).",
+    "uploadDate": "2024-02-07",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/photos/Kick_off_meeting.svg",
+    "title": "1st kick off meeting of GuideRadPROS Consortium",
+    "eventDate": "10-11 July 2023",
+    "content": "The 1st meeting of the EURAMET EMP 22NRM07 GuideRadPROS Consortium took place in Finland at STUK (Vantaa).",
+    "uploadDate": "2023-07-10",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/icons/icon-webinar.png",
+    "title": "First online workshop",
+    "eventDate": "30 September - 1 October 2024",
+    "content": "The first workshop of the GuideRadPROS ProjectEURAMET will be held online and it will last 2 days. The goal of the workshop is to test the developed theoretical training material on ISO 4037:2019 and ISO 29661. See the <a href='images/First_workshop_flyer.png'>workshop flyer</a> for more information. To register for the workshop, please fill out this <a href='https://bit.ly/GuideRadPROS_Workshop_Form'>registration form</a>. Check the <a href='images/First_workshop_timetable.pdf'>workshop timetable</a>. Here you can find the <a href='images/First_workshop_links.pdf'>links</a> to the workshop sessions.",
+    "uploadDate": "2024-09-30",
+    "imageType": "icon"
+  },
+  {
+    "imageUrl": "images/photos/M18_meeting.jpg",
+    "title": "M18 GuideRadPROS meeting",
+    "eventDate": "20-21 November 2024",
+    "content": "The M18 meeting of the 22NRM07 GuideRadPROS Project was held in Finland at STUK (Vantaa).",
+    "uploadDate": "2024-11-20",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/photos/M18_technical_visit.jpg",
+    "title": "M18 GuideRadPROS technical visit",
+    "eventDate": "21st November 2024",
+    "content": "On-site technical visit to the facilities of Mirion Technologies (Turku, Finland), a company that develops and manufactures gamma dosimeters.",
+    "uploadDate": "2024-11-21",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/icons/congress.png",
+    "title": "Practical training course on ISO 4037",
+    "eventDate": "20th - 22nd May 2025",
+    "content": "The workshop will focus on \"Calibrating photon dosimeters to ISO 4037 standards and preparing for new radiation protection quantities\". It will be held in Athens (Greece) and it will last 3 days. It will comprise three days of lectures and discussions, followed by hands-on sessions, where participants will be divided into basic and advanced groups. <a href='learning.html'>See more details here</a>.",
+    "uploadDate": "2025-05-20",
+    "imageType": "icon"
+  },
+  {
+    "imageUrl": "images/icons/visit.png",
+    "title": "Technical visit of PTB at CMI",
+    "eventDate": "October 2023",
+    "content": "One-day meeting of PTB (Physikalisch-Technische Bundesanstalt, Germany) partners at CMI (Czech Metrology Institute, Czechia). It was dedicated to the discussion about in-beam spectrometry of X-ray calibration beams and further steps in the related activities in the project.",
+    "uploadDate": "2023-10-01",
+    "imageType": "icon"
+  },
+  {
+    "imageUrl": "images/photos/TV_CMI_PTB_2024_04.JPG",
+    "title": "Technical visit of CMI at PTB",
+    "eventDate": "23th - 26th April 2024",
+    "content": "Four-day visit of CMI (Czech Metrology Institute, Czechia) partners to PTB (Physikalisch-Technische Bundesanstalt, Germany) . The partners carried out measurements of photon fluence spectra of reference X-ray beams, tested the spectrometric detector settings and performance, and obtained data for further use of the spectrometer as an instrument for determination of high voltage on the X-ray tube.",
+    "uploadDate": "2024-04-23",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/photos/TV_CMI_STUK_2024_11.jpg",
+    "title": "Technical visit of CMI at STUK",
+    "eventDate": "23th - 27th November 2024",
+    "content": "Five-day visit of CMI (Czech Metrology Institute, Czechia) partners to STUK (Radiation and Nuclear Safety Authority, Finland) photon dosimetry facility. The partners carried out measurements of photon fluence spectra of two industrial Am-241 radionuclide sources. In the calibration facility dedicated for measurements in X-ray beams, the partners measured photon fluence spectra of reference X-ray radiation qualities.",
+    "uploadDate": "2024-11-23",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/photos/TV_INM_VINS_2023_09.jpg",
+    "title": "Technical visit of INM at VINS",
+    "eventDate": "4th - 9th September 2023",
+    "content": "Visit of INM (National Institute of Metrology, Republic of Moldova) partners at VINS (Vinča Institute of Nuclear Sciences, Serbia) on September 2023. The partners worked on the Dissemination, communication and exploitation plan. They also worked in activities related to dosimeters type testing, focusing on how to establish reference values and validate capabilities and how to characterize the fields.",
+    "uploadDate": "2023-09-01",
+    "imageType": "photo"
+  },
+  {
+    "imageUrl": "images/photos/TV_QST_PTB_2024_09.jpg",
+    "title": "Technical visit of QST at PTB",
+    "eventDate": "2nd - 6th September 2024",
+    "content": "Visit of QST (National Institutes for Quantum Science and Technology, Japan) partners at PTB (Physikalisch-Technische Bundesanstalt, Germany) September 2024. The partners discussed how to test current dosimeters used in pulsed X-ray fields in Japan and how to test the applicability of IEC 63050.",
+    "uploadDate": "2024-09-01",
+    "imageType": "photo"
+  }
 ]
