@@ -1,5 +1,13 @@
 [
   {
+    "imageUrl": "images/photos/webinar-project.png",
+    "title": "CCRI Webinar on GuideRadPROS",
+    "eventDate": "15th April 2026",
+    "content": "The CCRI is organizing a webinar in the context of the GuideRadPROS project, titled  \\“The Latest developments in radiation protection dosimetry\\”. It will take place on 15th April 2026 at 12:00 UTC through the Zoom platform. The webinar will be available in the <a href='https://www.youtube.com/playlist?list=PL-vj-3_a7wTAv-_QmW_azu78hR1UXvBiu'>BIPM Youtube channel</a>. Find the <a href='https://bipm-org.zoom.us/meeting/register/5cPTw1tORw-FrC09fJgE9A'>registration link here</a>.",
+    "uploadDate": "2026-03-20",
+    "imageType": "photo"
+  },
+  {
     "imageUrl": "images/photos/Messukeskus-halli.jpg",
     "title": "Stakeholder Committee meeting of GuideRadPROS",
     "eventDate": "16th February 2026",
