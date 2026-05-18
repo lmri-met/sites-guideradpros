@@ -1,6 +1,30 @@
 [
   {
     "imageUrl": "images/icons/journal.png",
+    "title": "Implementation of the ISO 4037:2019 Standard using voltage dividers and X-ray spectrometry",
+    "eventDate": "Radiation Protection Dosimetry, 2026",
+    "content": "",
+    "uploadDate": "2026-05-12",
+    "imageType": "icon"
+  },
+  {
+    "imageUrl": "images/icons/journal.png",
+    "title": "Determination of Am-241 conversion coefficients and proposition for filtered S-Am beams",
+    "eventDate": "Journal of Instrumentation, 2026",
+    "content": "DOI: <a href=\"https://doi.org/10.1088/1748-0221/21/04/P04027\">10.1088/1748-0221/21/04/P04027</a>",
+    "uploadDate": "2026-04-02",
+    "imageType": "icon"
+  },
+  {
+    "imageUrl": "images/icons/journal.png",
+    "title": "Performance evaluation of active dosimeters for area workplace and individual monitoring based on historical and aggregated calibration data",
+    "eventDate": "Journal of Radiation Research and Applied Sciences, 2026",
+    "content": "DOI: <a href=\"https://doi.org/10.1016/j.jrras.2026.102344\">10.1016/j.jrras.2026.102344</a>",
+    "uploadDate": "2026-03-20",
+    "imageType": "icon"
+  },
+  {
+    "imageUrl": "images/icons/journal.png",
     "title": "Performance assessment of commonly used active radiation protection dosimeters for individual and area workplace monitoring",
     "eventDate": "Journal of Radiation Research and Applied Sciences, 2026",
     "content": "DOI: <a href=\"https://doi.org/10.1016/j.jrras.2026.102159\">10.1016/j.jrras.2026.102159</a>",
