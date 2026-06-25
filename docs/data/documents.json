@@ -28,6 +28,15 @@
   },
   {
     "imageUrl": "images/icons/document.png",
+    "documentUrl": "files/documents/GuideRadPROS D4 final.pdf",
+    "title": "Deliverable 4: Open access e-learning resources for calibration of the dosimeters according to the ISO 4037 standard series",
+    "uploadDate": "2026-02-04",
+    "imageType": "icon",
+    "eventDate": "May 2026",
+    "description": "Open access e-learning resources for calibration of the dosimeters according to the ISO 4037 standard series"
+  },
+  {
+    "imageUrl": "images/icons/document.png",
     "documentUrl": "files/documents/GuideRadPROS D5_updated.pdf",
     "title": "Deliverable 5: Overview of commonly used radiation protection dosimeters",
     "uploadDate": "2026-02-05",
@@ -71,7 +80,6 @@
     "eventDate": "January 2026",
     "description": "Publication of the project good practice guide on \"Standardization for radiation protection dosemeters in different applications\"."
   },
-
   {
     "imageUrl": "images/icons/document.png",
     "documentUrl": "files/documents/GuideRadPROS_A.1.1.10_Guidance document.pdf",
@@ -81,7 +89,6 @@
     "eventDate": "May 2026",
     "description": "Publication of the project good practice guide on \"Non-invasive determination of high voltage of X-ray tubes\"."
   },
-
   {
     "imageUrl": "images/icons/document.png",
     "documentUrl": "files/documents/22NRM07 Publishable Summary M18 final.pdf",
